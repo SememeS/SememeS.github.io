@@ -1,0 +1,102 @@
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+/* 
+	le Stylesheet 
+*/
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+
+
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+:-moz-any-link:focus {
+	outline: none;
+}
+
+:-moz-any-link:active {
+	outline: none;
+}
+
+::-moz-selection {
+    background: #666;
+	color: #fff;
+}
+
+::selection {
+    padding-top: 50px;
+	background: #666;
+	color: #fff;
+}
+
+body {
+/* IE10 Consumer Preview */ 
+	background-image: -ms-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
+/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
+/* Opera */ 
+	background-image: -o-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
+/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #333333), color-stop(1, #111111));
+/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
+/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(circle farthest-corner at center, #333333 0%, #111111 100%);
+	background-size: 100% 1000px;
+	padding-top: 50px;
+	font-family: 'Supermercado One', cursive;
+}
+
+.inBody {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+.navbar-default {
+	background: -moz-linear-gradient(top,  rgba(0,0,0,0.80) 0%, rgba(0,0,0,0) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.80)), color-stop(100%,rgba(0,0,0,0)));
+	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
+	background: -o-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
+	background: -ms-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
+	background: linear-gradient(to bottom,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
+}
+
+.nav {
+	background-image: url('../img/bg/bg_pat_04.png');
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Supermercado One', cursive;
+	text-shadow: 0px 3px 1px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+
+li {
+	text-shadow: 0px 3px 1px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+
+li:hover {
+	background: #111;
+	font-size: 20px;
+}
+
+.icon-dna {
+	font-size: 30px;
+	color: #222;
+}
+
+.icon-directions {
+	font-size: 20px;
+	color: white;
+}
+
+
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+/* 
+	le End. 
+*/
+///////////////////////////////////////////////
+///////////////////////////////////////////////
