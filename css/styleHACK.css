@@ -103,8 +103,8 @@ li:hover, li:focus, li:active {
 
 /* Outline button for use within the docs */
 .btn-outline {
-  background-color: #fff;
-  border-color: #e5e5e5;
+  background-color: transparent;
+  border-color: #ddd;
 }
 .btn-outline:hover,
 .btn-outline:focus,
@@ -147,14 +147,14 @@ li:hover, li:focus, li:active {
 .ss-sidebar .nav > li > a:hover,
 .ss-sidebar .nav > li > a:focus {
   text-decoration: none;
-  border-right: 3px solid #6bcbff;
+  border-right: 5px solid #6bcbff;
 }
 .ss-sidebar .nav > .active > a,
 .ss-sidebar .nav > .active:hover > a,
 .ss-sidebar .nav > .active:focus > a {
   font-weight: bold;
   background-color: transparent;
-  border-right: 3px solid #fff;
+  border-right: 5px solid #fff;
 }
 
 /* Nav: second level (shown on .active) */
