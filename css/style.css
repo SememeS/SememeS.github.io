@@ -31,6 +31,7 @@
 }
 
 body {
+	position: relative;
 	height: 100%;
 /* IE10 Consumer Preview */ 
 	background-image: -ms-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
@@ -74,17 +75,6 @@ h1, h2, h3, h4, h5, h6 {
 	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 
-li {
-	text-shadow: 0px 3px 1px #000000;
-	filter: dropshadow(color=#000000, offx=0, offy=3);
-}
-
-li:hover:active {
-	background: #111;
-	font-size: 20px;
-}
-
-
 .icon-dna {
 	font-size: 30px;
 	color: #222;
@@ -93,6 +83,49 @@ li:hover:active {
 .icon-directions {
 	font-size: 15px;
 	color: white;
+}
+
+.bs-footer {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin-top: 100px;
+  text-align: center;
+  border-top: 1px dashed #e5e5e5;
+}
+.footer-links {
+  margin: 10px 0;
+  padding-left: 0;
+}
+.footer-links li {
+  display: inline;
+  padding: 0 2px;
+}
+.footer-links li:first-child {
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  .bs-footer {
+    text-align: left;
+  }
+  .bs-footer p {
+    margin-bottom: 0;
+  }
+}
+
+.table code {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+li {
+	text-shadow: 0px 3px 1px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+
+li:hover, li:focus, li:active {
+	background: #111;
+	font-size: 20px;
 }
 
 #404BG {
