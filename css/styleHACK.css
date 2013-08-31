@@ -9,6 +9,7 @@
 
 *{
 	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	font-family: 'Supermercado One', cursive;
 }
 
 :-moz-any-link:focus {
@@ -47,7 +48,6 @@ body {
 	background-image: radial-gradient(circle farthest-corner at center, #333333 0%, #111111 100%);
 	background-size: 100% 1000px;
 	padding-top: 50px;
-	font-family: 'Supermercado One', cursive;
 }
 
 .navbar-default {
@@ -69,20 +69,19 @@ body {
 	background-image: url('https://lh5.googleusercontent.com/-utDQfPOA9L8/UiI280LpIPI/AAAAAAAABHs/OMFihDZVh2s/w50-h51-no/bg_pat_04.png');
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Supermercado One', cursive;
+.nav li {
 	text-shadow: 0px 3px 1px #000000;
 	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 
-li {
-	text-shadow: 0px 3px 1px #000000;
-	filter: dropshadow(color=#000000, offx=0, offy=3);
-}
-
-li:hover, li:focus, li:active {
+.nav li:hover, li:focus, li:active {
 	background: #111;
 	font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0px 3px 1px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 
 .icon-dna {

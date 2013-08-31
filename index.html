@@ -18,10 +18,10 @@
 </head>
  
  
-<body data-spy="scroll" data-target="#navbar-main">
+<body>
+<a class="sr-only" href="#content">Skip navigation</a>
 
-
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top" role="banner">
 <div class="container">
 <div class="navbar-header">
 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -29,7 +29,7 @@
 </button>
 <i class="icon-dna"></i>
 </div>
-<div class="collapse navbar-collapse">
+<div class="collapse navbar-collapse" role="navigation">
 <ul class="nav navbar-nav">
 <li class="active"><a href="index"><i class="icon-skull"></i> &nbsp;Home</a></li>
 <li><a href="3dmodels"><i class="icon-threed"></i> &nbsp;3D Models</a></li>
@@ -40,6 +40,8 @@
 </div><!--/.nav-collapse -->
 </div>
 </div>
+
+
 
 
 <main class="ss-masthead" id="content" role="main">
