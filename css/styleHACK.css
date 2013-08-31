@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 8px;
 }
 
-.ss-social-buttons li:hover, .ss-social-buttons li:focus, .ss-social-buttons li:active {
+.ss-social-buttons li a:hover, .ss-social-buttons li a:focus, .ss-social-buttons li a:active {
 	color: #fff;
 	font-size: 60;
 	text-decoration: none;
