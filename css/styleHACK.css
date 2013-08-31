@@ -272,6 +272,12 @@ h1, h2, h3, h4, h5, h6 {
   padding: 5px 8px;
 }
 
+.ss-social-buttons li:hover, .ss-social-buttons li:focus, .ss-social-buttons li:active {
+	color: #fff;
+	font-size: 60;
+	text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
   .ss-social {
     text-align: left;
