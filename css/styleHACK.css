@@ -258,6 +258,7 @@ li:hover, li:focus, li:active {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+	font-size: 20px;
 }
 .ss-social-buttons li {
   display: inline-block;
