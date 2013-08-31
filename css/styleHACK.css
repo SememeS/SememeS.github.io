@@ -361,8 +361,8 @@ h1[id] {
 }
 
 .ss-masthead .img-circle {
-	width: 100px;
-	height: 100px;
+	width: 120px;
+	height: 120px;
 }
 
 @media screen and (min-width: 768px) {
