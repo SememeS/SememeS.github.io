@@ -128,6 +128,38 @@ li:hover, li:focus, li:active {
 	font-size: 20px;
 }
 
+/*
+ * Social buttons
+ *
+ *(for homepage and footer).
+ */
+
+.bs-social {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.bs-social-buttons {
+  display: inline-block;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.bs-social-buttons li {
+  display: inline-block;
+  line-height: 1;
+  padding: 5px 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .bs-social {
+    text-align: left;
+  }
+  .bs-social-buttons li:first-child {
+    padding-left: 0;
+  }
+}
+
 #404BG {
 	background-image: url('https://lh5.googleusercontent.com/-W4BEv2Au3Lc/UWU23Pd2U6I/AAAAAAAAA-U/mOqCYzlFYk0/w1267-h709-no/sol.png');
 }
