@@ -30,10 +30,6 @@
 	color: #fff;
 }
 
-#404BG {
-	background-image: url('https://lh5.googleusercontent.com/-W4BEv2Au3Lc/UWU23Pd2U6I/AAAAAAAAA-U/mOqCYzlFYk0/w1267-h709-no/sol.png');
-}
-
 body {
 	position: relative;
 	height: 100%;
@@ -94,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 30px;
   margin-top: 100px;
   text-align: center;
-  border-top: 1px dashed #e5e5e5;
+  border-top: 1px solid #e5e5e5;
 }
 .footer-links {
   margin: 10px 0;
@@ -210,14 +206,14 @@ li:hover, li:focus, li:active {
   .bs-masthead {
     text-align: left;
     padding-top:    30px;
-    padding-bottom: 60px;
+    padding-bottom:  90px;
   }
   .bs-masthead h1 {
-    font-size: 100px;
+    font-size: 30px;
   }
   .bs-masthead .lead {
     margin-right: 25%;
-    font-size: 16px;
+    font-size: 14px;
   }
   .bs-masthead-links {
     padding: 0;
@@ -237,7 +233,6 @@ li:hover, li:focus, li:active {
   padding: 30px 15px 40px; /* side padding builds on .container 15px, so 30px */
   font-size: 16px;
   text-align: center;
-  text-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 .bs-header h1 {
   color: #fff;
@@ -268,8 +263,10 @@ li:hover, li:focus, li:active {
   }
 }
 
-
-
+#404BG {
+	text-align: center;
+	background-image: url('https://lh5.googleusercontent.com/-W4BEv2Au3Lc/UWU23Pd2U6I/AAAAAAAAA-U/mOqCYzlFYk0/w1267-h709-no/sol.png');
+}
 
 ///////////////////////////////////////////////
 ///////////////////////////////////////////////
