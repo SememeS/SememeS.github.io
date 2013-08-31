@@ -47,6 +47,8 @@ body {
 	background-image: radial-gradient(circle farthest-corner at center, #333333 0%, #111111 100%);
 	background-size: 100% 1000px;
 	padding-top: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
 	font-family: 'Supermercado One', cursive;
 }
 
