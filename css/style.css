@@ -173,7 +173,7 @@ li:hover, li:focus, li:active {
   text-align: center;
 }
 .bs-masthead h1 {
-  font-size: 50px;
+  font-size: 30px;
   line-height: 1;
   color: #fff;
 }
@@ -263,7 +263,7 @@ li:hover, li:focus, li:active {
   }
 }
 
-#404BG {
+.404BG {
 	text-align: center;
 	background-image: url('https://lh5.googleusercontent.com/-W4BEv2Au3Lc/UWU23Pd2U6I/AAAAAAAAA-U/mOqCYzlFYk0/w1267-h709-no/sol.png');
 }
