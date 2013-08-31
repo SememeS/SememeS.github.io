@@ -25,7 +25,7 @@
 }
 
 ::selection {
-    padding-top: 50px;
+  padding-top: 50px;
 	background: #666;
 	color: #fff;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 .nav {
-	background-image: url('../img/bg/bg_pat_04.png');
+	background-image: url('https://lh5.googleusercontent.com/-utDQfPOA9L8/UiI280LpIPI/AAAAAAAABHs/OMFihDZVh2s/w50-h51-no/bg_pat_04.png');
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -103,7 +103,9 @@ li:hover, li:focus, li:active {
 
 /* Outline button for use within the docs */
 .btn-outline {
-  background-color: transparent;
+  background-image: url('https://lh5.googleusercontent.com/-utDQfPOA9L8/UiI280LpIPI/AAAAAAAABHs/OMFihDZVh2s/w50-h51-no/bg_pat_04.png');
+	background-repeat: repeat;
+	background-color: transparent;
   border-color: #ddd;
 }
 .btn-outline:hover,
