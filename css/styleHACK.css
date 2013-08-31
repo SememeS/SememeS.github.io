@@ -278,7 +278,7 @@ li, a {
 
 .ss-social-buttons li a:hover, .ss-social-buttons li a:focus, .ss-social-buttons li a:active {
 	color: #fff;
-	font-size: 60;
+	font-size: 60px;
 }
 
 @media screen and (min-width: 768px) {
