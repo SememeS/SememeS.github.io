@@ -146,7 +146,6 @@ li, a {
 
 /* All levels of nav */
 .ss-sidebar .nav > li > a {
-  text-decoration: none;
   display: block;
   padding: 5px 20px;
 }
@@ -207,6 +206,25 @@ li, a {
     width: 263px;
   }
 }
+
+
+/*
+ * Docs sections
+ *
+ * Content blocks for each component or feature.
+ */
+
+/* Space things out */
+.bs-docs-section + .bs-docs-section {
+  padding-top: 40px;
+}
+
+/* Janky fix for preventing navbar from overlapping */
+h1[id] {
+  padding-top: 80px;
+  margin-top: -45px;
+}
+
 
 
 /*
