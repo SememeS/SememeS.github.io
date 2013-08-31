@@ -85,6 +85,10 @@ h1, h2, h3, h4, h5, h6 {
 	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 
+li, a {
+	text-decoration: none;
+}
+
 .icon-dna {
 	font-size: 30px;
 	color: #222;
@@ -275,7 +279,6 @@ h1, h2, h3, h4, h5, h6 {
 .ss-social-buttons li a:hover, .ss-social-buttons li a:focus, .ss-social-buttons li a:active {
 	color: #fff;
 	font-size: 60;
-	text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
