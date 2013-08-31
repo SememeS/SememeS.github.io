@@ -75,6 +75,16 @@ h1, h2, h3, h4, h5, h6 {
 	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 
+li {
+	text-shadow: 0px 3px 1px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+
+li:hover, li:focus, li:active {
+	background: #111;
+	font-size: 20px;
+}
+
 .icon-dna {
 	font-size: 30px;
 	color: #222;
@@ -115,12 +125,12 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 /* By default it's not affixed in mobile views, so undo that */
-.bs-sidebar.affix {
+.ss-sidebar.affix {
   position: static;
 }
 
 /* First level of nav */
-.bs-sidenav {
+.ss-sidenav {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top:    10px;
@@ -129,30 +139,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* All levels of nav */
-.bs-sidebar .nav > li > a {
+.ss-sidebar .nav > li > a {
   text-decoration: none;
   display: block;
   padding: 5px 20px;
 }
-.bs-sidebar .nav > li > a:hover,
-.bs-sidebar .nav > li > a:focus {
+.ss-sidebar .nav > li > a:hover,
+.ss-sidebar .nav > li > a:focus {
   text-decoration: none;
   border-right: 3px solid #6bcbff;
 }
-.bs-sidebar .nav > .active > a,
-.bs-sidebar .nav > .active:hover > a,
-.bs-sidebar .nav > .active:focus > a {
+.ss-sidebar .nav > .active > a,
+.ss-sidebar .nav > .active:hover > a,
+.ss-sidebar .nav > .active:focus > a {
   font-weight: bold;
   background-color: transparent;
   border-right: 3px solid #fff;
 }
 
 /* Nav: second level (shown on .active) */
-.bs-sidebar .nav .nav {
+.ss-sidebar .nav .nav {
   display: none; /* Hide by default, but at >768px, show it */
   margin-bottom: 8px;
 }
-.bs-sidebar .nav .nav > li > a {
+.ss-sidebar .nav .nav > li > a {
   padding-top:    3px;
   padding-bottom: 3px;
   padding-left: 30px;
@@ -161,31 +171,31 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Show and affix the side nav when space allows it */
 @media screen and (min-width: 992px) {
-  .bs-sidebar .nav > .active > ul {
+  .ss-sidebar .nav > .active > ul {
     display: block;
   }
   /* Widen the fixed sidebar */
-  .bs-sidebar.affix,
-  .bs-sidebar.affix-bottom {
+  .ss-sidebar.affix,
+  .ss-sidebar.affix-bottom {
     width: 213px;
   }
-  .bs-sidebar.affix {
+  .ss-sidebar.affix {
     position: fixed; /* Undo the static from mobile first approach */
     top: 80px;
   }
-  .bs-sidebar.affix-bottom {
-    position: absolute; /* Undo the static from mobile first approach */
+  .ss-sidebar.affix-bottom {
+    position: assolute; /* Undo the static from mobile first approach */
   }
-  .bs-sidebar.affix-bottom .bs-sidenav,
-  .bs-sidebar.affix .bs-sidenav {
+  .ss-sidebar.affix-bottom .ss-sidenav,
+  .ss-sidebar.affix .ss-sidenav {
     margin-top: 0;
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1200px) {
   /* Widen the fixed sidebar again */
-  .bs-sidebar.affix-bottom,
-  .bs-sidebar.affix {
+  .ss-sidebar.affix-bottom,
+  .ss-sidebar.affix {
     width: 263px;
   }
 }
@@ -196,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
  *
  * Separated section of content at the bottom of all pages, save the homepage.
  */
-.bs-footer {
+.ss-footer {
   padding-top: 40px;
   padding-bottom: 30px;
   margin-top: 100px;
@@ -216,10 +226,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
-  .bs-footer {
+  .ss-footer {
     text-align: left;
   }
-  .bs-footer p {
+  .ss-footer p {
     margin-bottom: 0;
   }
 }
@@ -229,15 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
 }
 
-li {
-	text-shadow: 0px 3px 1px #000000;
-	filter: dropshadow(color=#000000, offx=0, offy=3);
-}
 
-li:hover, li:focus, li:active {
-	background: #111;
-	font-size: 20px;
-}
 
 /*
  * Social buttons
@@ -245,28 +247,28 @@ li:hover, li:focus, li:active {
  *(for homepage and footer).
  */
 
-.bs-social {
+.ss-social {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
-.bs-social-buttons {
+.ss-social-buttons {
   display: inline-block;
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
 }
-.bs-social-buttons li {
+.ss-social-buttons li {
   display: inline-block;
   line-height: 1;
   padding: 5px 8px;
 }
 
 @media screen and (min-width: 768px) {
-  .bs-social {
+  .ss-social {
     text-align: left;
   }
-  .bs-social-buttons li:first-child {
+  .ss-social-buttons li:first-child {
     padding-left: 0;
   }
 }
@@ -278,17 +280,17 @@ li:hover, li:focus, li:active {
  */
 
  /* Masthead (headings and download button) */
- .bs-masthead {
+ .ss-masthead {
   position: relative;
   padding: 30px 15px;
   text-align: center;
 }
-.bs-masthead h1 {
+.ss-masthead h1 {
   font-size: 30px;
   line-height: 1;
   color: #fff;
 }
-.bs-masthead .btn-outline {
+.ss-masthead .btn-outline {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 18px 24px;
@@ -296,37 +298,37 @@ li:hover, li:focus, li:active {
 }
 
 /* Links to project-level content like the repo, Expo, etc */
-.bs-masthead-links {
+.ss-masthead-links {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0 15px;
   list-style: none;
   text-align: center;
 }
-.bs-masthead-links li {
+.ss-masthead-links li {
   display: inline;
 }
-.bs-masthead-links li + li {
+.ss-masthead-links li + li {
   margin-left: 20px;
 }
-.bs-masthead-links a {
+.ss-masthead-links a {
 	text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
-  .bs-masthead {
+  .ss-masthead {
     text-align: left;
     padding-top:    30px;
     padding-bottom:  90px;
   }
-  .bs-masthead h1 {
+  .ss-masthead h1 {
     font-size: 60px;
   }
-  .bs-masthead .lead {
+  .ss-masthead .lead {
     margin-right: 25%;
     font-size: 30px;
   }
-  .bs-masthead-links {
+  .ss-masthead-links {
     padding: 0;
     text-align: left;
   }
@@ -340,36 +342,36 @@ li:hover, li:focus, li:active {
 
 
 /* Page headers */
-.bs-header {
+.ss-header {
   padding: 30px 15px 40px; /* side padding builds on .container 15px, so 30px */
   font-size: 16px;
   text-align: center;
 }
-.bs-header h1 {
+.ss-header h1 {
   color: #fff;
 }
-.bs-header p {
+.ss-header p {
   font-weight: 300;
   line-height: 1.5;
 }
-.bs-header .container {
+.ss-header .container {
   position: relative;
 }
 
 @media screen and (min-width: 768px) {
-  .bs-header {
+  .ss-header {
     font-size: 21px;
     text-align: left;
   }
-  .bs-header h1 {
+  .ss-header h1 {
     font-size: 60px;
     line-height: 1;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .bs-header h1,
-  .bs-header p {
+  .ss-header h1,
+  .ss-header p {
     margin-right: 380px;
   }
 }
