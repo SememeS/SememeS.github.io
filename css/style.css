@@ -31,6 +31,7 @@
 }
 
 body {
+	height: 100%;
 /* IE10 Consumer Preview */ 
 	background-image: -ms-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
 /* Mozilla Firefox */ 
@@ -48,17 +49,18 @@ body {
 	font-family: 'Supermercado One', cursive;
 }
 
-.inBody {
-	padding: 40px 15px;
-	text-align: center;
-}
-
 .navbar-default {
+/* Mozilla Firefox */ 	
 	background: -moz-linear-gradient(top,  rgba(0,0,0,0.80) 0%, rgba(0,0,0,0) 100%);
+/* Webkit (Safari/Chrome 10) */	
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.80)), color-stop(100%,rgba(0,0,0,0)));
+/* Webkit (Chrome 11+) */	
 	background: -webkit-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
+/* Opera */ 	
 	background: -o-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
+/* IE10 Consumer Preview */ 	
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
+/* W3C Markup, IE10 Release Preview */ 	
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
 }
 
@@ -77,10 +79,11 @@ li {
 	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 
-li:hover {
+li:hover:active {
 	background: #111;
 	font-size: 20px;
 }
+
 
 .icon-dna {
 	font-size: 30px;
@@ -92,11 +95,7 @@ li:hover {
 	color: white;
 }
 
-img {
-	text-align: center;
-}
-
-#StarBG {
+#404BG {
 	background-image: url('https://lh5.googleusercontent.com/-W4BEv2Au3Lc/UWU23Pd2U6I/AAAAAAAAA-U/mOqCYzlFYk0/w1267-h709-no/sol.png');
 }
 
