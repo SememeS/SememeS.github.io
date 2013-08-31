@@ -111,7 +111,6 @@ li:hover, li:focus, li:active {
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active {
-  color: #222;
   background-color: #fff;
   border-color: #fff;
 }
