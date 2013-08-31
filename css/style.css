@@ -205,7 +205,7 @@ li:hover, li:focus, li:active {
 @media screen and (min-width: 768px) {
   .bs-masthead {
     text-align: left;
-    padding-top:    140px;
+    padding-top:    70px;
     padding-bottom: 140px;
   }
   .bs-masthead h1 {
