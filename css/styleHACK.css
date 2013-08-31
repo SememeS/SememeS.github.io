@@ -155,8 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 .bs-sidebar .nav > li > a:hover,
 .bs-sidebar .nav > li > a:focus {
   text-decoration: none;
-  background-color: #e5e3e9;
-  border-right: 1px solid #dbd8e0;
+  border-right: 1px solid #red;
 }
 .bs-sidebar .nav > .active > a,
 .bs-sidebar .nav > .active:hover > a,
@@ -164,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   color: #563d7c;
   background-color: transparent;
-  border-right: 1px solid #563d7c;
+  border-right: 1px solid #fff;
 }
 
 /* Nav: second level (shown on .active) */
@@ -369,6 +368,7 @@ li:hover, li:focus, li:active {
   margin-left: 20px;
 }
 .bs-masthead-links a {
+	text-decoration: none;
   color: #fff;
 }
 
