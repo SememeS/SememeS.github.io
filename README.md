@@ -1,7 +1,7 @@
 SememeS.github.io
 =================
 
-My Personal website.
+My Personal website. Hosted here on Github. Thank you Github :)
 
 
 
