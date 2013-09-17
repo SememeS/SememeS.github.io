@@ -50,7 +50,6 @@ body {
 	padding-top: 50px;
 	padding-left: 5px;
 	padding-right: 5px;
-	font-family: 'Supermercado One', cursive;
 }
 
 .navbar-default {
@@ -70,6 +69,7 @@ body {
 
 .nav {
 	background-image: url('https://lh5.googleusercontent.com/-utDQfPOA9L8/UiI280LpIPI/AAAAAAAABHs/OMFihDZVh2s/w50-h51-no/bg_pat_04.png');
+	font-family: 'Supermercado One', cursive;
 }
 
 li {
