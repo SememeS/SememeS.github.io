@@ -197,7 +197,7 @@ li, a {
     top: 80px;
   }
   .ss-sidebar.affix-bottom {
-    position: fixed; /* Undo the static from mobile first approach */
+    position: absolute; /* Undo the static from mobile first approach */
   }
   .ss-sidebar.affix-bottom .ss-sidenav,
   .ss-sidebar.affix .ss-sidenav {
