@@ -136,7 +136,7 @@ li, a {
  */
 
 /* By default it's not affixed in mobile views, so undo that */
-.ss-sidebar.affix {
+.ss-sidebar.affix-bottom {
   position: static;
 }
 
