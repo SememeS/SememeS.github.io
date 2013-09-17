@@ -190,7 +190,7 @@ li, a {
   /* Widen the fixed sidebar */
   .ss-sidebar.affix,
   .ss-sidebar.affix-bottom {
-    width: 300px;
+    width: 200px;
   }
   .ss-sidebar.affix {
     position: fixed; /* Undo the static from mobile first approach */
