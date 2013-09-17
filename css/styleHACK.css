@@ -347,7 +347,7 @@ h1[id] {
 /* Links to project-level content like the repo, Expo, etc */
 .ss-masthead-links {
 	font-family: 'Supermercado One', cursive;
-	font-color: #666;
+	color: #666;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0 15px;
@@ -387,7 +387,7 @@ h1[id] {
   }
   .ss-masthead-links {
     font-family: 'Supermercado One', cursive;
-		font-color: #666;
+		color: #666;
 		padding: 0;
     text-align: left;
   }
