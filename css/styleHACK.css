@@ -31,6 +31,20 @@
 	color: #fff;
 }
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
 body {
 	position: relative;
 	height: 100%;
@@ -190,7 +204,7 @@ li, a {
   /* Widen the fixed sidebar */
   .ss-sidebar.affix,
   .ss-sidebar.affix-bottom {
-    width: 300px;
+    width: 220px;
   }
   .ss-sidebar.affix {
     position: fixed; /* Undo the static from mobile first approach */
