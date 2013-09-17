@@ -93,7 +93,6 @@ li {
  }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Supermercado One', cursive;
 	text-shadow: 0px 3px 1px #000000;
 	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
@@ -249,6 +248,7 @@ h1[id] {
 .footer-links {
   margin: 10px 0;
   padding-left: 0;
+	font-family: 'Supermercado One', cursive;
 }
 .footer-links li {
   display: inline;
