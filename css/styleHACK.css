@@ -244,11 +244,11 @@ h1[id] {
   margin-top: 100px;
   text-align: center;
   border-top: 1px solid #e5e5e5;
+	font-family: 'Supermercado One', cursive;
 }
 .footer-links {
   margin: 10px 0;
   padding-left: 0;
-	font-family: 'Supermercado One', cursive;
 }
 .footer-links li {
   display: inline;
