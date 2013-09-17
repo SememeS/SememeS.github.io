@@ -262,6 +262,7 @@ h1[id] {
 @media (min-width: 768px) {
   .ss-footer {
     text-align: left;
+		font-family: 'Supermercado One', cursive;
   }
   .ss-footer p {
     margin-bottom: 0;
@@ -334,6 +335,11 @@ h1[id] {
   line-height: 1;
   color: #fff;
 }
+
+.ss-masthead .lead {
+	  font-family: 'Supermercado One', cursive;
+  }
+
 .ss-masthead .btn-outline {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -376,6 +382,7 @@ h1[id] {
     font-size: 50px;
   }
   .ss-masthead .lead {
+	  font-family: 'Supermercado One', cursive;
     margin-right: 25%;
     font-size: 30px;
   }
