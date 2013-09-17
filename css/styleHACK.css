@@ -69,8 +69,7 @@ body {
 
 .nav {
 	background-image: url('https://lh5.googleusercontent.com/-utDQfPOA9L8/UiI280LpIPI/AAAAAAAABHs/OMFihDZVh2s/w50-h51-no/bg_pat_04.png');
-	font-family: 'Metamorphous', cursive;
-	font-weight: bold;
+	font-family: 'Supermercado One', cursive;
 }
 
 li {
@@ -337,7 +336,7 @@ h1[id] {
 }
 
 .ss-masthead .lead {
-	font-family: 'Metamorphous', cursive;
+	font-family: 'Supermercado One', cursive;
   }
 
 .ss-masthead .btn-outline {
@@ -349,7 +348,7 @@ h1[id] {
 
 /* Links to project-level content like the repo, Expo, etc */
 .ss-masthead-links {
-	font-family: 'Metamorphous', cursive;
+	font-family: 'Supermercado One', cursive;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0 15px;
@@ -383,12 +382,12 @@ h1[id] {
     font-size: 50px;
   }
   .ss-masthead .lead {
-	  font-family: 'Metamorphous', cursive;
+	  font-family: 'Supermercado One', cursive;
     margin-right: 25%;
     font-size: 30px;
   }
   .ss-masthead-links {
-    font-family: 'Metamorphous', cursive;
+    font-family: 'Supermercado One', cursive;
 		padding: 0;
     text-align: left;
   }
