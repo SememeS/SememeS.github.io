@@ -193,11 +193,11 @@ li, a {
     width: 300px;
   }
   .ss-sidebar.affix {
-    position: fixed; /* Undo the static from mobile first approach */
+    position: static; /* Undo the static from mobile first approach */
     top: 80px;
   }
   .ss-sidebar.affix-bottom {
-    position: assolute; /* Undo the static from mobile first approach */
+    position: static; /* Undo the static from mobile first approach */
   }
   .ss-sidebar.affix-bottom .ss-sidenav,
   .ss-sidebar.affix .ss-sidenav {
@@ -209,7 +209,7 @@ li, a {
   /* Widen the fixed sidebar again */
   .ss-sidebar.affix-bottom,
   .ss-sidebar.affix {
-    width: 400px;
+    width: 300px;
   }
 }
 
