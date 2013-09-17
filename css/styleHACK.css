@@ -210,7 +210,7 @@ li, a {
   /* Widen the fixed sidebar again */
   .ss-sidebar.affix-bottom,
   .ss-sidebar.affix {
-    width: 263px;
+    width: 300px;
   }
 }
 
