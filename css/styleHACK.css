@@ -137,7 +137,7 @@ li, a {
 
 /* By default it's not affixed in mobile views, so undo that */
 .ss-sidebar.affix {
-  position: static;
+  position: fixed;
 }
 
 /* First level of nav */
