@@ -119,6 +119,11 @@ li, a {
 	text-decoration: none;
 }
 
+#Landing {
+	background-image: url('https://lh3.googleusercontent.com/-GtAVor3KVIg/UjxNwguwl8I/AAAAAAAABJs/4Oc29zyw3Co/w975-h709-no/ss_denizenoftheotherside.png');
+	background-repeat: no-repeat;
+}
+
 
 .table code {
   font-size: 13px;
@@ -339,7 +344,6 @@ h1[id] {
   position: relative;
   padding: 30px 15px;
   text-align: center;
-	background-image: url('https://lh3.googleusercontent.com/-GtAVor3KVIg/UjxNwguwl8I/AAAAAAAABJs/4Oc29zyw3Co/w975-h709-no/ss_denizenoftheotherside.png');
 }
 
 .ss-masthead h1 {
