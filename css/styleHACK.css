@@ -119,8 +119,20 @@ li, a {
 	text-decoration: none;
 }
 
-#Landing {
+#BGindex {
 	background: url('https://lh6.googleusercontent.com/-kTTmg6xDU2M/Uj7ciQ7cy9I/AAAAAAAABK8/O2WEWm0zlpE/w975-h709-no/ss_denizenoftheotherside2.png') no-repeat top center;
+	width: 100%;
+	height: 700px;
+}
+
+#BGmodels {
+	background: url('https://lh6.googleusercontent.com/-kTTmg6xDU2M/Uj7ciQ7cy9I/AAAAAAAABK8/O2WEWm0zlpE/w975-h709-no/ss_denizenoftheotherside2.png') no-repeat top center;
+	width: 100%;
+	height: 700px;
+}
+
+#BGlinks {
+	background: url('https://lh4.googleusercontent.com/-vawzZLpjfq0/Uj7ysJdlmFI/AAAAAAAABPM/XHpz4NMufvk/w1213-h709-no/street.png') no-repeat top center;
 	width: 100%;
 	height: 700px;
 }
