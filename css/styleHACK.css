@@ -120,8 +120,7 @@ li, a {
 }
 
 #Landing {
-	background-image: url('https://lh5.googleusercontent.com/-qzchg4tpWJ0/Uj7X50_r4uI/AAAAAAAABKU/AKXBMA8AE2Y/w975-h709-no/ss_denizenoftheotherside2.png');
-	background-repeat: no-repeat;
+	background: url('https://lh5.googleusercontent.com/-qzchg4tpWJ0/Uj7X50_r4uI/AAAAAAAABKU/AKXBMA8AE2Y/w975-h709-no/ss_denizenoftheotherside2.png') no-repeat top center;
 	width: 100%;
 }
 
