@@ -79,12 +79,12 @@ body {
 	background: -ms-linear-gradient(top,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
 /* W3C Markup, IE10 Release Preview */ 	
 	background: linear-gradient(to bottom,  rgba(0,0,0,0.80) 0%,rgba(0,0,0,0) 100%);
+	color: #6bcbff;
 }
 
 .nav {
 	background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
 	font-family: 'Supermercado One', cursive;
-	color: #6bcbff;
 }
 
 li {
