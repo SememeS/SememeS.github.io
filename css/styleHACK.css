@@ -38,10 +38,10 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(50,50,50,0.8); 
+    background: rgba(30,30,30,0.8); 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: rgba(50,50,50,0.4); 
+	background: rgba(30,30,30,0.4); 
 }
 
 body {
