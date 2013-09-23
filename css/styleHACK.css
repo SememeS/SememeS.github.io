@@ -33,18 +33,18 @@
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-    width: 12px;
+  width: 12px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track { 
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: rgba(30,30,30,0.8); 
+  background: rgba(30,30,30,0.8); 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: rgba(30,30,30,0.4); 
@@ -107,8 +107,8 @@ li {
 }
 
 .navbar .nav .divider{
-     background-color:#222;
-     height:3px;    
+  background-color:#222;
+  height:3px;    
  }
 
 h1, h2 {
@@ -126,7 +126,7 @@ li, small,  a {
 
 .badge {
 	font-size: 20px;
-	filter: none;
+	filter: dropshadow(color=#000000, offx=0, offy=0);
 }
 
 #BGindex {
