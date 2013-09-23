@@ -44,8 +44,6 @@
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    -webkit-border-radius: 10px;
-    border-radius: 10px;
     background: rgba(100,100,100,0.8); 
 }
 ::-webkit-scrollbar-thumb:window-inactive {
