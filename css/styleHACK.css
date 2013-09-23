@@ -33,7 +33,7 @@
 
 ::-webkit-scrollbar {
     width: 12px;
-		background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
+		color: white;
 }
  
 ::-webkit-scrollbar-track {
