@@ -368,6 +368,9 @@ li, small,  a {
 	font-size: 28px;
   color: #fff;
 }
+.bs-header h2 {
+	font-size: 21px;
+}
 .bs-header p {
   font-weight: 300;
   line-height: 1.5;
@@ -385,6 +388,9 @@ li, small,  a {
     font-size: 50px;
     line-height: 1;
   }
+	.bs-header h2 {
+		font-size: 40px;
+	}
 }
 
 @media screen and (min-width: 992px) {
