@@ -50,6 +50,10 @@
 	background: rgba(30,30,30,0.4); 
 }
 
+@alert-info-bg {
+	color: #5bc0de;
+}
+
 body {
 	position: relative;
 	padding-top: 50px;
