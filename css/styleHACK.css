@@ -72,8 +72,8 @@ body {
 
 @media screen and (min-width: 768px) {
 		body {
-			padding-left: -12px;
-			padding-right: -12px;
+			padding-left: -20px;
+			padding-right: -20px;
 		}
 }
 
@@ -138,21 +138,36 @@ li, small,  a {
 #BGindex {
 	background: url('https://lh6.googleusercontent.com/-kTTmg6xDU2M/Uj7ciQ7cy9I/AAAAAAAABK8/O2WEWm0zlpE/w975-h709-no/ss_denizenoftheotherside2.png') no-repeat top center;
 	width: 100%;
-	height: 700px;
+	position: center;
 }
 
 #BGmodels {
 	background: url('https://lh4.googleusercontent.com/-4oYJvKlfePI/Uj728q6h4uI/AAAAAAAABRo/E7ohdHON7eA/w931-h709-no/inthejungle.png') no-repeat top center;
 	width: 100%;
-	height: 700px;
+	position: center;
 }
 
 #BGtools {
 	background: url('https://lh6.googleusercontent.com/-5nLwmhCzwR4/Uj---vtL7xI/AAAAAAAABW4/CYuWFB8Bn14/w343-h709-no/sketches_hand.png') no-repeat top center;
 	width: 100%;
 	height: 1024px;
+	position: center;
+}
+@media screen and (min-width: 768px) {
+		#BGindex {
+			height: 700px;
+		}
 }
 
+		#BGmodels {
+			height: 700px;
+		}
+}
+
+		#BGtools {
+			height: 1024px;
+		}
+}
 
 .table code {
   font-size: 13px;
