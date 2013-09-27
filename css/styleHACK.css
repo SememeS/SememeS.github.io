@@ -165,6 +165,10 @@ li, small,  a {
 			padding-left: 0px;
 			padding-right: 0px;
 		}
+		.container {
+			padding-left: -100px;
+			margin-left: 0px;
+		}
 		#BGindex {
 			padding-left: 0px;
 			padding-right: 0px;
