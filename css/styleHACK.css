@@ -193,7 +193,12 @@ li, small,  a {
 			padding-left: -100px;
 			margin-left: 0px;
 		}
-		#contContent {
+		#cont1 {
+			padding-left: -100px;
+			margin-left: 0px;
+		}
+
+		#cont2 {
 			padding-left: -100px;
 			margin-left: 0px;
 		}
