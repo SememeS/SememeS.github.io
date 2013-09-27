@@ -104,6 +104,15 @@
 
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script type="text/javascript">
+$('#myAffix').affix({
+    offset: {
+      top: 100
+    , bottom: function () {
+        return (this.bottom = $('.bs-footer').outerHeight(true))
+      }
+    }
+  })
+
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-31309939-2']);
