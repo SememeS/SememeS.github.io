@@ -89,6 +89,13 @@ body {
 	font-family: 'Supermercado One', cursive;
 }
 
+.modal-dialog {
+	max-width:160px;
+	border:2px; 
+	border-color:#00bfff; 
+	border-style:dashed;
+}
+
 .alert-info { 
 	background-color:#333; 
 	border:2px; 
@@ -214,6 +221,9 @@ li, small,  a {
 		}
 		#UpFoot {
 			display: none;
+		}
+		.modal-dialog {
+			max-width:320px;
 		}
 }
 @media screen and (min-width: 992px) {
