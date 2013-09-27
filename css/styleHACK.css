@@ -154,6 +154,36 @@ li, small,  a {
 			padding-left: 0px;
 			padding-right: 0px;
 		}
+		#BGindex {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		#BGmodels {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		#BGtools {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+}
+@media screen and (min-width: 992px) {
+		#BGindex {
+			padding-left: -20px;
+			padding-right: -20px;
+		}
+
+		#BGmodels {
+			padding-left: -20px;
+			padding-right: -20px;
+		}
+
+		#BGtools {
+			padding-left: -20px;
+			padding-right: -20px;
+		}
 }
 
 
