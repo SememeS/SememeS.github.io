@@ -151,11 +151,10 @@ li, small,  a {
 }
 #myModal {
 	font-size: 30px;
-	width: 140px;
-	height: 140px;
 }
 .modal-content {
 	background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
+	width: 200px;
 }
 #mypic {
 	width: 128px;
@@ -183,8 +182,9 @@ li, small,  a {
 		#myModal {
 			text-align: center;
 			font-size: 60px;
-			width: 280px;
-			height: 280px;
+		}
+		.modal-content {
+			width: 300px;
 		}
 		#mypic{
 			width: 256px;
