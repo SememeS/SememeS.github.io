@@ -95,7 +95,7 @@ li {
 
 .nav li:hover, .nav li:focus, .nav li:active {
 	background: #111;
-	font-size: 20px;
+	font-size: 16px;
 	text-decoration: none;
 }
 
