@@ -169,22 +169,7 @@ li, small,  a {
 			padding-right: 0px;
 		}
 }
-@media screen and (min-width: 992px) {
-		#BGindex {
-			padding-left: -20px;
-			padding-right: -20px;
-		}
 
-		#BGmodels {
-			padding-left: -20px;
-			padding-right: -20px;
-		}
-
-		#BGtools {
-			padding-left: -20px;
-			padding-right: -20px;
-		}
-}
 
 
 
