@@ -368,7 +368,7 @@ li, small,  a {
 	font-size: 28px;
   color: #fff;
 }
-.bs-header h2 {
+.page-header h1 {
 	font-size: 21px;
 }
 .bs-header p {
@@ -388,7 +388,7 @@ li, small,  a {
     font-size: 50px;
     line-height: 1;
   }
-	.bs-header h2 {
+	.page-header h1 {
 		font-size: 40px;
 	}
 }
