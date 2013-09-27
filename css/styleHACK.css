@@ -157,8 +157,10 @@ li, small,  a {
 }
 @media screen and (min-width: 992px) {
 		body {
-			padding-left: -150px;
-			padding-right: -150px;
+			padding-left: -120px;
+			padding-right: -120px;
+			margin-left: -60px;
+			margin-right: -60px;
 		}
 }
 
