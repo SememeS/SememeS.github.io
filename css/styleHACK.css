@@ -50,9 +50,6 @@
 	background: rgba(30,30,30,0.4); 
 }
 
-@alert-info-bg {
-	color: #5bc0de;
-}
 
 body {
 	position: relative;
@@ -128,10 +125,6 @@ li, small,  a {
 .badge {
 	font-size: 20px;
 	text-shadow: none;
-}
-
-#smallAlert {
-	max-width: 120px;
 }
 
 #BGindex {
