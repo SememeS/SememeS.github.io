@@ -157,8 +157,8 @@ li, small,  a {
 }
 @media screen and (min-width: 1024px) {
 		body {
-			padding-left: -80px;
-			padding-right: -80px;
+			padding-left: -150px;
+			padding-right: -150px;
 		}
 }
 
