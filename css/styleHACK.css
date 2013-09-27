@@ -365,6 +365,7 @@ li, small,  a {
   text-align: center;
 }
 .bs-header h1 {
+	font-size: 21px;
   color: #fff;
 }
 .bs-header p {
