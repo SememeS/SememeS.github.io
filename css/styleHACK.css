@@ -366,9 +366,6 @@ li, small,  a {
     font-size: 50px;
     line-height: 1;
   }
-	.bs-header h1 {
-    font-size: 30px;
-  }
 }
 
 @media screen and (min-width: 992px) {
