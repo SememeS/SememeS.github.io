@@ -89,31 +89,27 @@ body {
 	font-family: 'Supermercado One', cursive;
 }
 
-.alert-info {
-	max-width:420px; 
+.alert-info { 
 	background-color:#333; 
-	border:3px; 
+	border:2px; 
 	border-color:#00bfff; 
 	border-style:dashed;
 }
 .alert-warning {
-	max-width:420px; 
 	background-color:#333; 
-	border:3px; 
+	border:2px; 
 	border-color:#ff9d00; 
 	border-style:dashed;
 }
 .alert-success {
-	max-width:420px; 
 	background-color:#333; 
-	border:3px; 
+	border:2px; 
 	border-color:#b2ff00; 
 	border-style:dashed;
 }
-.alert-danger {
-	max-width:420px; 
+.alert-danger { 
 	background-color:#333; 
-	border:3px; 
+	border:2px; 
 	border-color:#ff0062; 
 	border-style:dashed;
 }
