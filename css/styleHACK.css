@@ -176,12 +176,12 @@ li, small,  a {
  */
 
 /* By default it's not affixed in mobile views, so undo that */
-.ss-sidebar.affix {
+.bs-sidebar.affix {
   position: static;
 }
 
 /* First level of nav */
-.ss-sidenav {
+.bs-sidenav {
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top:    10px;
@@ -190,20 +190,20 @@ li, small,  a {
 }
 
 /* All levels of nav */
-.ss-sidebar .nav > li > a {
+.bs-sidebar .nav > li > a {
   display: block;
   padding: 5px 20px;
 }
-.ss-sidebar .nav > li > a:hover,
-.ss-sidebar .nav > li > a:focus {
+.bs-sidebar .nav > li > a:hover,
+.bs-sidebar .nav > li > a:focus {
   text-decoration: none;
   border-right: 5px solid #6bcbff;
 	color: #fff;
 }
 
-.ss-sidebar .nav > .active > a,
-.ss-sidebar .nav > .active:hover > a,
-.ss-sidebar .nav > .active:focus > a {
+.bs-sidebar .nav > .active > a,
+.bs-sidebar .nav > .active:hover > a,
+.bs-sidebar .nav > .active:focus > a {
   font-weight: bold;
   background-color: transparent;
   border-right: 5px solid #fff;
@@ -211,11 +211,11 @@ li, small,  a {
 }
 
 /* Nav: second level (shown on .active) */
-.ss-sidebar .nav .nav {
+.bs-sidebar .nav .nav {
   display: none; /* Hide by default, but at >768px, show it */
   margin-bottom: 8px;
 }
-.ss-sidebar .nav .nav > li > a {
+.bs-sidebar .nav .nav > li > a {
   padding-top:    3px;
   padding-bottom: 3px;
   padding-left: 30px;
@@ -224,31 +224,31 @@ li, small,  a {
 
 /* Show and affix the side nav when space allows it */
 @media screen and (min-width: 992px) {
-  .ss-sidebar .nav > .active > ul {
+  .bs-sidebar .nav > .active > ul {
     display: block;
   }
   /* Widen the fixed sidebar */
-  .ss-sidebar.affix,
-  .ss-sidebar.affix-bottom {
+  .bs-sidebar.affix,
+  .bs-sidebar.affix-bottom {
     width: 220px;
   }
-  .ss-sidebar.affix {
+  .bs-sidebar.affix {
     position: fixed; /* Undo the static from mobile first approach */
     top: 80px;
   }
-  .ss-sidebar.affix-bottom {
+  .bs-sidebar.affix-bottom {
     position: absolute; /* Undo the static from mobile first approach */
   }
-  .ss-sidebar.affix-bottom .ss-sidenav,
-  .ss-sidebar.affix .ss-sidenav {
+  .bs-sidebar.affix-bottom .bs-sidenav,
+  .bs-sidebar.affix .bs-sidenav {
     margin-top: 0;
     margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1200px) {
   /* Widen the fixed sidebar again */
-  .ss-sidebar.affix-bottom,
-  .ss-sidebar.affix {
+  .bs-sidebar.affix-bottom,
+  .bs-sidebar.affix {
     width: 260px;
   }
 }
@@ -278,7 +278,7 @@ h1[id] {
  *
  * Separated section of content at the bottom of all pages, save the homepage.
  */
-.ss-footer {
+.bs-footer {
   padding-top: 40px;
   padding-bottom: 30px;
   margin-top: 100px;
@@ -299,10 +299,10 @@ h1[id] {
 }
 
 @media (min-width: 768px) {
-  .ss-footer {
+  .bs-footer {
     text-align: left;
   }
-  .ss-footer p {
+  .bs-footer p {
     margin-bottom: 0;
   }
 }
@@ -319,12 +319,12 @@ h1[id] {
  *(for homepage and footer).
  */
 
-.ss-social {
+.bs-social {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
-.ss-social-buttons {
+.bs-social-buttons {
   display: inline-block;
   margin-bottom: 0;
   padding-left: 0;
@@ -334,23 +334,23 @@ h1[id] {
 	color: #fff;
 }
 
-.ss-social-buttons li {
+.bs-social-buttons li {
   display: inline-block;
   line-height: 1;
   padding: 5px 8px;
 }
 
-.ss-social-buttons li a:hover, .ss-social-buttons li a:focus, .ss-social-buttons li a:active {
+.bs-social-buttons li a:hover, .bs-social-buttons li a:focus, .bs-social-buttons li a:active {
 	color: #fff;
 	font-size: 33px;
 	text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
-  .ss-social {
+  .bs-social {
     text-align: left;
   }
-  .ss-social-buttons li:first-child {
+  .bs-social-buttons li:first-child {
     padding-left: 0;
   }
 }
@@ -362,23 +362,23 @@ h1[id] {
  */
 
  /* Masthead (headings and download button) */
- .ss-masthead {
+ .bs-masthead {
   position: relative;
   padding: 30px 15px;
   text-align: center;
 }
 
-.ss-masthead h1 {
+.bs-masthead h1 {
   font-size: 30px;
   line-height: 1;
   color: #fff;
 }
 
-.ss-masthead .lead {
+.bs-masthead .lead {
 	font-family: 'Supermercado One', cursive;
   }
 
-.ss-masthead .btn-outline {
+.bs-masthead .btn-outline {
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 18px 24px;
@@ -386,7 +386,7 @@ h1[id] {
 }
 
 /* Links to project-level content like the repo, Expo, etc */
-.ss-masthead-links {
+.bs-masthead-links {
 	font-family: 'Supermercado One', cursive;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -394,48 +394,48 @@ h1[id] {
   list-style: none;
   text-align: center;
 }
-.ss-masthead-links li {
+.bs-masthead-links li {
   display: inline;
 }
 
-.ss-masthead-links li a {
+.bs-masthead-links li a {
   color: #666;
 }
 
-.ss-masthead-links li + li {
+.bs-masthead-links li + li {
   margin-left: 20px;
 }
-.ss-masthead-links li a:hover, .ss-masthead-links li a:focus, .ss-masthead-links li a:active {
+.bs-masthead-links li a:hover, .bs-masthead-links li a:focus, .bs-masthead-links li a:active {
 	color: #fff;
 	font-size: 16px;
 	text-decoration: none;
 }
 
-.ss-masthead .img-circle {
+.bs-masthead .img-circle {
 	width: 64px;
 	height: 64px;
 }
 
 @media screen and (min-width: 768px) {
-  .ss-masthead {
+  .bs-masthead {
     text-align: left;
     padding-top:    30px;
     padding-bottom:  90px;
   }
-  .ss-masthead h1 {
+  .bs-masthead h1 {
     font-size: 50px;
   }
-  .ss-masthead .lead {
+  .bs-masthead .lead {
 	  font-family: 'Supermercado One', cursive;
     margin-right: 25%;
     font-size: 20px;
   }
-  .ss-masthead-links {
+  .bs-masthead-links {
     font-family: 'Supermercado One', cursive;
 		padding: 0;
     text-align: left;
   }
-	.ss-masthead .img-circle {
+	.bs-masthead .img-circle {
 	width: 128px;
 	height: 128px;
 	}
@@ -449,36 +449,36 @@ h1[id] {
 
 
 /* Page headers */
-.ss-header {
+.bs-header {
   padding: 30px 15px 40px; /* side padding builds on .container 15px, so 30px */
   font-size: 16px;
   text-align: center;
 }
-.ss-header h1 {
+.bs-header h1 {
   color: #fff;
 }
-.ss-header p {
+.bs-header p {
   font-weight: 300;
   line-height: 1.5;
 }
-.ss-header .container {
+.bs-header .container {
   position: relative;
 }
 
 @media screen and (min-width: 768px) {
-  .ss-header {
+  .bs-header {
     font-size: 21px;
     text-align: left;
   }
-  .ss-header h1 {
+  .bs-header h1 {
     font-size: 60px;
     line-height: 1;
   }
 }
 
 @media screen and (min-width: 992px) {
-  .ss-header h1,
-  .ss-header p {
+  .bs-header h1,
+  .bs-header p {
     margin-right: 380px;
   }
 }
