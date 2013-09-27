@@ -177,7 +177,7 @@ li, small,  a {
 
 /* By default it's not affixed in mobile views, so undo that */
 .bs-sidebar.affix {
-  position: fixed;
+  position: static;
 }
 
 /* First level of nav */
