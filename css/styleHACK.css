@@ -195,9 +195,13 @@ li, small,  a {
 		}
 }
 @media screen and (min-width: 992px) {
-		.container {
+		#contNavbar {
 			padding-left: -100px;
-			padding-right: -50px;
+			margin-left: 0px;
+		}
+		#contContent {
+			padding-left: -100px;
+			padding-right: -100px;
 			margin-left: 0px;
 			margin-right: 0px;
 		}
