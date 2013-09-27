@@ -149,9 +149,9 @@ li, small,  a {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-.modal-body .img-circle {
-	width: 128px;
-	height: 128px;
+.modal-header .img-circle {
+	width: 256px;
+	height: 256px;
 }
 @media screen and (min-width: 768px) {
 		body {
@@ -172,9 +172,9 @@ li, small,  a {
 			padding-left: 0px;
 			padding-right: 0px;
 		}
-		.modal-body .img-circle {
-			width: 256px;
-			height: 256px;
+		.modal-header .img-circle {
+			width: 512px;
+			height: 512px;
 		}
 }
 
