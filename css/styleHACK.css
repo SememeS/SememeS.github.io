@@ -149,12 +149,12 @@ li, small,  a {
 	padding-left: 20px;
 	padding-right: 20px;
 }
-.modal-header {
+#myModal {
 	font-size: 30px;
 }
 #mypic {
-	width: 256px;
-	height: 256px;
+	width: 128px;
+	height: 128px;
 }
 @media screen and (min-width: 768px) {
 		body {
@@ -175,13 +175,13 @@ li, small,  a {
 			padding-left: 0px;
 			padding-right: 0px;
 		}
-		.modal-header {
+		#myModal {
 			text-align: center;
 			font-size: 30px;
 		}
 		#mypic{
-			width: 512px;
-			height: 512px;
+			width: 256px;
+			height: 256px;
 		}
 }
 
