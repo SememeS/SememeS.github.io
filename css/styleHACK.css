@@ -149,6 +149,10 @@ li, small,  a {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+.modal-body .img-circle {
+	width: 128px;
+	height: 128px;
+}
 @media screen and (min-width: 768px) {
 		body {
 			padding-left: 0px;
@@ -167,6 +171,10 @@ li, small,  a {
 		#BGtools {
 			padding-left: 0px;
 			padding-right: 0px;
+		}
+		.modal-body .img-circle {
+			width: 256px;
+			height: 256px;
 		}
 }
 
@@ -313,10 +321,6 @@ li, small,  a {
 		padding: 0;
     text-align: left;
   }
-	.bs-masthead .img-circle {
-	width: 128px;
-	height: 128px;
-	}
 }
 
 /*
