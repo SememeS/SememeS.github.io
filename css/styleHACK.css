@@ -53,8 +53,8 @@
 body {
 	position: relative;
 	padding-top: 50px;
-	padding-left: 12px;
-	padding-right: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
 /* IE10 Consumer Preview */ 
 	background-image: -ms-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
 /* Mozilla Firefox */ 
