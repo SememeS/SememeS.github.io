@@ -153,9 +153,10 @@ li, small,  a {
 	font-size: 30px;
 }
 .modal-header {
-	background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
+	background: url('https://lh4.googleusercontent.com/-4oYJvKlfePI/Uj728q6h4uI/AAAAAAAABRo/E7ohdHON7eA/w931-h709-no/inthejungle.png') no-repeat top center;
 }
 #mypic {
+	background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
 	width: 128px;
 	height: 128px;
 }
