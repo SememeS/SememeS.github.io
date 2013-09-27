@@ -434,7 +434,12 @@ li, small,  a {
 
 /* Show and affix the side nav when space allows it */
 @media screen and (min-width: 768px) {
-  .bs-sidebar .nav > .active > ul {
+  .bs-sidebar .nav .nav {
+		display: yes; /* Hide by default, but at >768px, show it */
+		margin-bottom: 8px;
+	}
+	
+	.bs-sidebar .nav > .active > ul {
     display: block;
   }
   /* Widen the fixed sidebar */
