@@ -151,25 +151,25 @@ li, small,  a {
 }
 @media screen and (min-width: 768px) {
 		.navbar-default {
-			padding-left: -40px;
-			padding-right: -40px;
+			padding-left: -60px;
+			padding-right: -60px;
 		}
 		
 		#BGindex {
-			padding-left: -40px;
-			padding-right: -40px;
+			padding-left: -60px;
+			padding-right: -60px;
 		}
 }
 
 		#BGmodels {
-			padding-left: -40px;
-			padding-right: -40px;
+			padding-left: -60px;
+			padding-right: -60px;
 		}
 }
 
 		#BGtools {
-			padding-left: -40px;
-			padding-right: -40px;
+			padding-left: -60px;
+			padding-right: -60x;
 		}
 }
 
