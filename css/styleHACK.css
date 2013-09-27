@@ -114,7 +114,7 @@ h1, h2 {
 	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 h3, h4, h5, h6 {
-	font-family: 'Metamorphous', cursive;
+	font-family: 'Supermercado One', cursive;
 }
 
 li, small,  a {
@@ -301,6 +301,7 @@ li, small,  a {
 
 /* Links, etc */
 .bs-masthead-links {
+	font-family: 'Supermercado One', cursive;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0 15px;
@@ -416,7 +417,6 @@ li, small,  a {
 
 /* First level of nav */
 .bs-sidenav {
-	font-family: 'Metamorphous', cursive;
   margin-top: 30px;
   margin-bottom: 30px;
   padding-top:    10px;
