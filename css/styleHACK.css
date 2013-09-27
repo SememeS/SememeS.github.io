@@ -433,7 +433,7 @@ li, small,  a {
 }
 
 /* Show and affix the side nav when space allows it */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   .bs-sidebar .nav > .active > ul {
     display: block;
   }
@@ -443,11 +443,11 @@ li, small,  a {
     width: 213px;
   }
   .bs-sidebar.affix {
-    position: fixed-top; /* Undo the static from mobile first approach */
+    position: fixed; /* Undo the static from mobile first approach */
     top: 80px;
   }
   .bs-sidebar.affix-bottom {
-    position: fixed; /* Undo the static from mobile first approach */
+    position: absolute; /* Undo the static from mobile first approach */
   }
   .bs-sidebar.affix-bottom .bs-sidenav,
   .bs-sidebar.affix .bs-sidenav {
