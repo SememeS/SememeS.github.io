@@ -381,7 +381,7 @@ li, small,  a {
 
 @media screen and (min-width: 768px) {
   .bs-header {
-    font-size: 21px;
+    font-size: 18px;
     text-align: left;
   }
   .bs-header h1 {
