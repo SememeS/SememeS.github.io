@@ -181,7 +181,7 @@ li, small,  a {
 #mypic {
 	width: 128px;
 	height: 128px;
-	border:2px; 
+	border:4px; 
 	border-color:#333; 
 	border-style:solid;
 }
