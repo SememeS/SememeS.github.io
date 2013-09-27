@@ -439,7 +439,6 @@ li, small,  a {
 .bs-sidebar .nav > .active > a,
 .bs-sidebar .nav > .active:hover > a,
 .bs-sidebar .nav > .active:focus > a {
-  font-weight: bold;
 	color: #fff;
   background-color: transparent;
   border-right: 5px solid #fff;
