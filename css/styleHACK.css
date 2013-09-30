@@ -175,6 +175,12 @@ li, small,  a {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+#BGlinks {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 #myModal {
 	font-size: 30px;
 }
@@ -226,6 +232,13 @@ li, small,  a {
 
 		#BGtools {
 			background: url('https://lh6.googleusercontent.com/-5nLwmhCzwR4/Uj---vtL7xI/AAAAAAAABW4/CYuWFB8Bn14/w343-h709-no/sketches_hand.png') no-repeat top center;
+			width: 100%;
+			height: 700px;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#BGlinks {
+			background: url('https://lh6.googleusercontent.com/-KPhPRU-Er60/Uj73D08RF6I/AAAAAAAABSI/flSL3BbZdAY/w1117-h653-no/street.png') no-repeat top center;
 			width: 100%;
 			height: 700px;
 			padding-left: 0px;
