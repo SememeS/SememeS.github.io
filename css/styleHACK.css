@@ -188,6 +188,9 @@ li, small,  a {
 #tools {
 	text-align: center;
 }
+#rowyAds {
+	margin-bottom:2.5em;
+}
 @media screen and (min-width: 768px) {
 		body {
 			padding-left: 0px;
