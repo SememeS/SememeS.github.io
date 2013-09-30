@@ -136,10 +136,9 @@ li {
 
 .navbar-toggle {	
 	color: white;
-	padding-top: -10px;
-	padding-bottom: -10px;
+	padding-top: -5px;
+	padding-bottom: -5px;
 	margin-top: -5px;
-	margin-bottom: 5px;
 }
 
 .navbar .nav .divider{
