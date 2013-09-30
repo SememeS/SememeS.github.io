@@ -213,7 +213,8 @@ li, small,  a {
 }
 
 #cont1 {
-	padding-bottom: -100px;
+	padding-top: 50px;
+	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
 
