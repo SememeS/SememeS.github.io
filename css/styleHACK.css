@@ -136,6 +136,8 @@ li {
 
 .navbar-toggle {	
 	color: white;
+	padding-top: -10px;
+	padding-bottom: -10px;
 }
 
 .navbar .nav .divider{
@@ -207,7 +209,7 @@ li, small,  a {
 	font-color: #9f0;
 }
 #cont1 {
-  padding-bottom: -10px;
+  padding-bottom: -30px;
 }
 @media screen and (min-width: 768px) {
 		body {
