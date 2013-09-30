@@ -188,6 +188,9 @@ li, small,  a {
 #tools {
 	text-align: center;
 }
+#tools p {
+	font-size: 20px;
+}
 #rowyAds {
 	margin-bottom:3.3em;
 }
