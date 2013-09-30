@@ -138,6 +138,8 @@ li {
 	color: white;
 	padding-top: -10px;
 	padding-bottom: -10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .navbar .nav .divider{
@@ -209,7 +211,7 @@ li, small,  a {
 	font-color: #9f0;
 }
 #cont1 {
-  padding-bottom: -30px;
+  padding-bottom: -100px;
 }
 @media screen and (min-width: 768px) {
 		body {
