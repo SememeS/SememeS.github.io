@@ -213,9 +213,8 @@ li, small,  a {
 }
 
 #cont1 {
-	padding-top: 50px;
 	padding-bottom: 0px;
-	margin-bottom: 0px;
+	margin-bottom: -50px;
 }
 
 @media screen and (min-width: 768px) {
