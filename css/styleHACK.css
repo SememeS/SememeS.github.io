@@ -194,6 +194,9 @@ li, small,  a {
 #rowyAds {
 	margin-bottom:3.3em;
 }
+.iconIMG { 
+	max-width: 64px; 
+}
 @media screen and (min-width: 768px) {
 		body {
 			padding-left: 0px;
