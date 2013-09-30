@@ -203,7 +203,7 @@ li, small,  a {
 	font-size: 20px;
 }
 #rowSpace {
-	margin-bottom:1.5em;
+	margin-bottom:2.4em;
 }
 .iconIMG { 
 	max-width: 64px; 
@@ -211,9 +211,7 @@ li, small,  a {
 .icon-check {
 	font-color: #9f0;
 }
-#cont1 {
-  padding-bottom: -100px;
-}
+
 @media screen and (min-width: 768px) {
 		body {
 			padding-left: 0px;
@@ -440,6 +438,7 @@ li, small,  a {
   padding: 30px 15px 40px; /* side padding builds on .container 15px, so 30px */
   font-size: 16px;
   text-align: center;
+	padding-bottom: -100px;
 }
 .bs-header h1 {
 	font-size: 30px;
