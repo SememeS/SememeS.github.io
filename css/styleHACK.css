@@ -185,6 +185,9 @@ li, small,  a {
 	border-color:#333; 
 	border-style:solid;
 }
+#tools {
+	text-align: center;
+}
 @media screen and (min-width: 768px) {
 		body {
 			padding-left: 0px;
