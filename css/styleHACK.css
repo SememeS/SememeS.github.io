@@ -189,6 +189,9 @@ li, small,  a {
 #BGlinks a {
 	text-decoration: none;
 }
+#linkscol {
+	font-size: 20px;
+}
 
 #myModal {
 	font-size: 30px;
