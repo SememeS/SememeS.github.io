@@ -186,6 +186,10 @@ li, small,  a {
 	padding-right: 20px;
 }
 
+#BGlinks a {
+	text-decoration: none;
+}
+
 #myModal {
 	font-size: 30px;
 }
