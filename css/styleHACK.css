@@ -186,6 +186,10 @@ li, small,  a {
 	padding-right: 20px;
 }
 
+#linkscol {
+	paddin-top: -100px;
+}
+
 #myModal {
 	font-size: 30px;
 }
