@@ -628,6 +628,12 @@ h1[id] {
 	text-decoration: none;
 }
 
+#arrowCar {
+	padding-top: 50px;
+	font-size: 16px;
+	text-align: left;
+}
+
 @media screen and (min-width: 768px) {
   .bs-social {
     text-align: left;
@@ -635,11 +641,13 @@ h1[id] {
   .bs-social-buttons li:first-child {
     padding-left: 0;
   }
+	#arrowCar {
+		padding-top: 100px;
+		font-size: 24px;
+	}
 }
 
-#arrowCar {
-	padding-top: 80px;
-}
+
 
 
 ///////////////////////////////////////////////
