@@ -238,14 +238,6 @@ li, small,  a {
 			padding-right: 0px;
 		}
 
-		#BGmodels {
-			background: url('https://lh4.googleusercontent.com/-4oYJvKlfePI/Uj728q6h4uI/AAAAAAAABRo/E7ohdHON7eA/w931-h709-no/inthejungle.png') no-repeat top center;
-			width: 100%;
-			height: 700px;
-			padding-left: 0px;
-			padding-right: 0px;
-		}
-
 		#BGtools {
 			background: url('https://lh6.googleusercontent.com/-5nLwmhCzwR4/Uj---vtL7xI/AAAAAAAABW4/CYuWFB8Bn14/w343-h709-no/sketches_hand.png') no-repeat top center;
 			width: 100%;
@@ -689,6 +681,7 @@ h1[id] {
   line-height: 40px;
   text-indent: 20px;
 	font-family: 'Supermercado One', cursive;
+	background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
 }
 
 .sidebar-nav li a {
