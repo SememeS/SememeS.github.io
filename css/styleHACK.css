@@ -654,7 +654,8 @@ h1[id] {
  */
 
 #wrapper {
-  padding-left: 250px;
+  padding-top: 60px;
+	padding-left: 250px;
   transition: all 0.4s ease 0s;
 }
 
