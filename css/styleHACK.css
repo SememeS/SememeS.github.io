@@ -649,6 +649,7 @@ h1[id] {
   margin-top: 10px;
 	padding-left: 200px;
   transition: all 0.4s ease 0s;
+	background-color:#333;
 }
 
 #sidebar-wrapper {
@@ -660,7 +661,7 @@ h1[id] {
   height: 100%;
   overflow-y: auto;
   z-index: 1000;
-  transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s; 
 }
 
 #page-content-wrapper {
@@ -673,8 +674,7 @@ h1[id] {
   width: 200px;
   list-style: none;
   margin: 0;
-  padding: 0;
-	background-color:#333;  
+  padding: 0; 
 }
 
 .sidebar-nav li {
@@ -705,7 +705,6 @@ h1[id] {
   line-height: 60px;
   font-size: 18px;
 	font-family: 'Metamorphous', cursive;
-	background: none;
 }
 
 .sidebar-nav > .sidebar-brand a {
@@ -727,6 +726,7 @@ h1[id] {
   margin-left: 20px;
   line-height: 60px;
   display: inline-block;
+	padding: 5px;
 }
 
 #menu-toggle {
