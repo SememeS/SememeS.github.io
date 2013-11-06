@@ -751,10 +751,6 @@ h1[id] {
   transition: all 0.4s ease 0s;
 }
 
-#menu-toggle {
-  display: inline-block;
-}
-
 .inset {
   padding: 15px;
 }
