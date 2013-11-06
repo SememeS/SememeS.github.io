@@ -129,7 +129,10 @@ Simple Sidebar
 
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
 <script type="text/javascript">
-	$('body').scrollspy({ target: '.bs-sidenav' });
+	$("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("active");
+    });
 </script>
 
 		
