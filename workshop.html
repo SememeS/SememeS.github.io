@@ -75,9 +75,9 @@
           
 <!-- Page content -->
 <div id="page-content-wrapper">
+<a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
 <div class="content-header">
 <h1>
-<a id="menu-toggle" href="#" class="btn btn-default"><i class="icon-reorder"></i></a>
 Unity Workshop
 </h1>
 </div>
@@ -128,6 +128,8 @@ Unity Workshop
         e.preventDefault();
         $("#wrapper").toggleClass("active");
     });
+		
+	$('body').scrollspy({ target: '#menu-toggle' });
 </script>
 
 		
