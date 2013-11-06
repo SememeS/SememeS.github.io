@@ -654,7 +654,7 @@ h1[id] {
  */
 
 #wrapper {
-  margin-top: 50px;
+  margin-top: 10px;
 	padding-left: 250px;
   transition: all 0.4s ease 0s;
 }
@@ -682,21 +682,22 @@ h1[id] {
   list-style: none;
   margin: 0;
   padding: 0;
+	font-family: 'Metamorphous', cursive;
 }
 
 .sidebar-nav li {
   line-height: 40px;
   text-indent: 20px;
+	font-family: 'Supermercado One', cursive;
 }
 
 .sidebar-nav li a {
-  /*color: #999999;*/
   display: block;
   text-decoration: none;
 }
 
 .sidebar-nav li a:hover {
-  /*color: #fff;*/
+  color: #fff;
   background: rgba(255,255,255,0.2);
   text-decoration: none;
 }
