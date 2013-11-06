@@ -655,7 +655,7 @@ h1[id] {
   margin-left: -200px;
   left: 200px;
   width: 200px;
-  background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
+  background: #222;
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -685,7 +685,7 @@ h1[id] {
   display: block;
   text-decoration: none;
 	font-family: 'Supermercado One', cursive;
-	background: #222;
+	background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
 }
 
 .sidebar-nav li a:hover {
