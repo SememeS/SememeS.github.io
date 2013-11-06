@@ -500,7 +500,7 @@ li, small,  a {
 /* By default it's not affixed in mobile views, so undo that */
 .bs-sidebar.affix {
   position: static;
-	font-size: 16px;
+	/*font-size: 16px;
 }
 
 /* First level of nav */
@@ -517,12 +517,14 @@ li, small,  a {
   display: block;
   padding: 5px 20px;
 }
+
 .bs-sidebar .nav > li > a:hover,
 .bs-sidebar .nav > li > a:focus {
   text-decoration: none;
 	color: #fff;
   border-right: 5px solid #6bcbff;
 }
+
 
 .bs-sidebar .nav > .active > a,
 .bs-sidebar .nav > .active:hover > a,
@@ -531,6 +533,7 @@ li, small,  a {
   background-color: transparent;
   border-right: 5px solid #fff;
 }
+
 
 /* Nav: second level (shown on .active) */
 .bs-sidebar .nav .nav {
@@ -654,7 +657,8 @@ h1[id] {
  */
 
 #wrapper {
-  padding-left: 250px;
+  paddin-top: 60px;
+	padding-left: 250px;
   transition: all 0.4s ease 0s;
 }
 
@@ -689,17 +693,17 @@ h1[id] {
 }
 
 .sidebar-nav li a {
-  color: #999999;
+  /*color: #999999;*/
   display: block;
   text-decoration: none;
 }
-
+/*
 .sidebar-nav li a:hover {
   color: #fff;
   background: rgba(255,255,255,0.2);
   text-decoration: none;
 }
-
+*/
 .sidebar-nav li a:active,
 .sidebar-nav li a:focus {
   text-decoration: none;
@@ -712,14 +716,14 @@ h1[id] {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #999999;
+  /*color: #999999;*/
 }
-
+/*
 .sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
   background: none;
 }
-
+*/
 .content-header {
   height: 65px;
   line-height: 65px;
