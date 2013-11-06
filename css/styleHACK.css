@@ -690,13 +690,13 @@ h1[id] {
 }
 
 .sidebar-nav li a {
-  color: #999999;
+  /*color: #999999;*/
   display: block;
   text-decoration: none;
 }
 
 .sidebar-nav li a:hover {
-  color: #fff;
+  /*color: #fff;*/
   background: rgba(255,255,255,0.2);
   text-decoration: none;
 }
@@ -717,7 +717,7 @@ h1[id] {
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  /*color: #fff;*/
   background: none;
 }
 
