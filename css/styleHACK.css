@@ -647,15 +647,15 @@ h1[id] {
 
 #wrapper {
   margin-top: 10px;
-	padding-left: 200px;
+	padding-left: 180px;
   transition: all 0.4s ease 0s;
 }
 
 #sidebar-wrapper {
-  margin-left: -200px;
-  left: 200px;
-  width: 200px;
-  background: #222;
+  margin-left: -180px;
+  left: 180px;
+  width: 180px;
+  background: #111;
   position: fixed;
   height: 100%;
   overflow-y: auto;
@@ -670,7 +670,7 @@ h1[id] {
 .sidebar-nav {
   position: absolute;
   top: 0;
-  width: 200px;
+  width: 180px;
   list-style: none;
   margin: 0;
   padding: 0; 
@@ -702,7 +702,7 @@ h1[id] {
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   line-height: 60px;
-  font-size: 18px;
+  font-size: 20px;
 	font-family: 'Metamorphous', cursive;
 }
 
@@ -740,12 +740,12 @@ h1[id] {
 
 #wrapper.active {
   position: relative;
-  left: 200px;
+  left: 180px;
 }
 
 #wrapper.active #sidebar-wrapper {
-  left: 200px;
-  width: 200px;
+  left: 180px;
+  width: 180px;
   transition: all 0.4s ease 0s;
 }
 
