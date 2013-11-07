@@ -753,8 +753,8 @@ h1[id] {
 
 #menu-toggle {
   display: inline-block;
-	padding-left: 200px;
-	width: 30px;
+	padding-left: -20px;
+
 }
 
 .inset {
