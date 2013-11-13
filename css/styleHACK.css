@@ -727,7 +727,6 @@ h1[id] {
 
 #menu-toggle {
   background: transparent;
-	font-size: 16px;
 	color: #222;
 }
 
@@ -760,6 +759,7 @@ h1[id] {
 #menu-toggle {
   display: inline-block;
 	margin-left: 186px;
+	color: #00bfff;
 }
 
 .inset {
