@@ -168,6 +168,10 @@ li, small,  a {
 	text-shadow: none;
 }
 
+#MyName {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
 #BGindex {
 	padding-left: 20px;
 	padding-right: 20px;
