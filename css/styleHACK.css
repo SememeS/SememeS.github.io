@@ -674,7 +674,8 @@ h1[id] {
   width: 180px;
   list-style: none;
   margin: 0;
-  padding: 0; 
+  padding: 0;
+	background-image: url('https://lh5.googleusercontent.com/-Xx4fTTpX5Og/UknM1ZKBWkI/AAAAAAAABbY/yGQ3XufSEeQ/w672-h238-no/Unity3D.png');
 }
 
 .sidebar-nav li {
