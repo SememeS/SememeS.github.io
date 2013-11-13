@@ -87,7 +87,7 @@ body {
 
 .nav {
 	background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
-	font-family: "Arial Black", Gadget, sans-serif;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .modal-dialog {
@@ -369,7 +369,7 @@ li, small,  a {
 }
 
 .bs-masthead .lead {
-	font-family: 'Supermercado One', cursive;
+	font-family: "Arial Black", Gadget, sans-serif;
   }
 
 .bs-masthead .btn-outline {
@@ -381,7 +381,7 @@ li, small,  a {
 
 /* Links, etc */
 .bs-masthead-links {
-	font-family: 'Supermercado One', cursive;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 0 15px;
@@ -420,12 +420,10 @@ li, small,  a {
     font-size: 50px;
   }
   .bs-masthead .lead {
-	  font-family: 'Supermercado One', cursive;
     margin-right: 25%;
     font-size: 20px;
   }
   .bs-masthead-links {
-    font-family: 'Supermercado One', cursive;
 		padding: 0;
     text-align: left;
   }
@@ -689,7 +687,7 @@ h1[id] {
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
-	font-family: 'Supermercado One', cursive;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-image: url('https://lh3.googleusercontent.com/-tuSKu6ZYBMY/UiI3bGnoTgI/AAAAAAAABIE/bzsZYrAZHCQ/w50-h51-no/bg_pat_04.png');
 }
 
@@ -708,7 +706,7 @@ h1[id] {
   height: 65px;
   line-height: 60px;
   font-size: 18px;
-	font-family: 'Metamorphous', cursive;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 
