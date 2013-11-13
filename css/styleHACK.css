@@ -723,11 +723,11 @@ h1[id] {
   display: inline-block;
 	padding: 5px;
 }
-/*
+
 #menu-toggle {
-  display: none;
+  background: transparent;
 }
-*/
+
 .inset {
   padding: 40px;
 }
