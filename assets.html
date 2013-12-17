@@ -6,9 +6,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Unity Assets (:)-|--<SS">
 <meta name="author" content="Steve Severdija">
-
-
-
 <link href="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cyborg/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" type="text/css" media="all" href="css/whhg.css" />
 <link href="css/styleHACK.css" media="screen" rel="stylesheet" type="text/css" />
@@ -27,6 +24,30 @@
   ga('create', 'UA-44521237-1', 'steveseverdija.com');
   ga('send', 'pageview');
 
+</script>
+
+<script language=JavaScript> 
+function clickIE() {
+if (document.all) {
+return false;
+}
+} 
+function clickNS(e) {
+if (document.layers||(document.getElementById&&!document.all)) { 
+if (e.which==2||e.which==3) {
+return false;
+}
+}
+} 
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS;
+} 
+else{
+document.onmouseup=clickNS;
+document.oncontextmenu=clickIE;
+} 
+document.oncontextmenu=new Function("return false") 
 </script>
 </head>
  
