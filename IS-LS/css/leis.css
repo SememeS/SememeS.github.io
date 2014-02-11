@@ -175,11 +175,16 @@ footer p {
 
 .nav>li>a {
   padding: 35px;
-	background: #555;
 }
 
 .navbar-nav>li>a {
   line-height: normal;
+}
+
+.navbar-nav>li>a:hover {
+  line-height: normal;
+	background: 444;
+	color: #fff;
 }
 
 .navbar-nav {
