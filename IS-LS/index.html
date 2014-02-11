@@ -16,6 +16,11 @@
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Add custom CSS here -->
     <link href="css/business-casual.css" rel="stylesheet">
+		
+		<svg xmlns='http://www.w3.org/2000/svg' width='8' height='8'>
+    <rect width='8' height='8' fill='#403c3f'/>
+    <path d='M0 0L8 8ZM8 0L0 8Z' stroke-width='1' stroke='#1e292d'/>
+    </svg>
 </head>
 
 <body>
@@ -143,6 +148,11 @@
         </div>
     </footer>
 
+<!-- This is used for output -->
+<div id="demo"><pre id="code">
+[base64]
+</pre></div>
+		
      <!-- Core JavaScript Files -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
@@ -151,6 +161,20 @@
     $('.carousel').carousel({
         interval: 5000
     })
+		
+var code = document.getElementById('code');
+var demo = document.getElementById('demo');
+var svg = document.getElementsByTagName('svg')[0];
+
+// Convert the SVG node to HTML.
+var div = document.createElement('div');
+div.appendChild(svg.cloneNode(true));
+
+// Encode the SVG as base64
+var b64 = 'data:image/svg+xml;base64,'+window.btoa(div.innerHTML);
+var url = 'url("' + b64 + '")';
+code.innerHTML = 'Base64 CSS (for cross-browser compatibility)\n\nbackground-image: ' + url + ';';
+demo.style.backgroundImage = url;
     </script>
 
 </body>
