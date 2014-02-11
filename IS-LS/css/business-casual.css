@@ -24,8 +24,8 @@ body {
   left: 0;
   right: 0;
   z-index: 9999;
-;
 }
+
 h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   letter-spacing: 3px;
