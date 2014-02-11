@@ -179,6 +179,7 @@ footer p {
 
 .navbar-nav>li>a {
   line-height: normal;
+	background: #666;
 }
 
 .navbar-nav {
