@@ -41,7 +41,7 @@ hr {
   display: none;
 }
 
-a#navlinks:hover, a#navlinks:active {
+#navlinks:hover, #navlinks:active {
 	color: white;
 }
 
