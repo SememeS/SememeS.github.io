@@ -201,17 +201,3 @@ footer p {
     }
 }
 
-#demo {
-  position: absolute;
-  top: 0px; left: 0px;
-  right: 0px; bottom: 0px;
-}
-#code {
-  border: 1px solid #000;
-  background-color: rgba(255,255,255,0.95);
-  padding: 0.5em;
-  margin: 1em;
-}
-svg {
-  display: none;
-}

@@ -17,26 +17,12 @@
 		<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 		
     <!-- Add custom CSS here -->
-    <link href="css/business-casual.css" rel="stylesheet">
-		
-<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='60' height='30'>
-<defs>
-<rect id='r' width='30' height='15' fill='#bb085f' stroke-width='2.5' stroke='#7a054d'/>
-<g id='p'>
-<use xlink:href='#r'/>
-<use y='15' xlink:href='#r'/>
-<use y='30' xlink:href='#r'/>
-<use y='45' xlink:href='#r'/>
-</g>
-</defs>
-<use xlink:href='#p' transform='translate(0 -25) skewY(40)'/>
-<use xlink:href='#p' transform='translate(30 0) skewY(-40)'/>
-</svg>
+    <link href="css/business-casual.css" rel="stylesheet">	
 
 </head>
 
 <body>
-    <div class="brand"><img src="img\brand_m.png"></img><h1>IS-LS</h1><br><h5 class="pull-top" style="font-size: 20px;"> Integration-Domotique-Controle-LED</h5></div>
+    <div class="brand"><img src="img\brand_m.png"></img><h1>IS-LS</h1><br><h5 style="font-size: 20px;"> Integration-Domotique-Controle-LED</h5></div>
 
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -152,21 +138,6 @@
     $('.carousel').carousel({
         interval: 5000
     })
-		
-var code = document.getElementById('code');
-var demo = document.getElementById('demo');
-var svg = document.getElementsByTagName('svg')[0];
-
-// Convert the SVG node to HTML.
-var div = document.createElement('div');
-div.appendChild(svg.cloneNode(true));
-
-// Encode the SVG as base64
-var b64 = 'data:image/svg+xml;base64,'+window.btoa(div.innerHTML);
-var url = 'url("' + b64 + '")';
-code.innerHTML = 'Base64 CSS (for cross-browser compatibility)\n\nbackground-image: ' + url + ';';
-demo.style.backgroundImage = url;
-
     </script>
 
 </body>
