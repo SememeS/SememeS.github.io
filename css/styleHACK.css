@@ -136,10 +136,11 @@ li {
 }
 .navbar {
 	text-align: center;
+	color: #333;
 }
 
 .navbar-toggle {	
-	color: #eee;
+	color: #333;
 	padding-top: -5px;
 	padding-bottom: -5px;
 	font-size: 20px;
