@@ -183,6 +183,26 @@ footer p {
   line-height: normal;
 }
 
+.nav>li>a:hover {
+	background: #222;
+	color:#eee;
+}
+
+.navbar-nav>li>a:hover {
+	background: #222;
+	color:#eee;
+}
+
+.nav>li>a:focus {
+	background: #222;
+	color:#eee;
+}
+
+.navbar-nav>li>a:focus {
+	background: #222;
+	color:#eee;
+}
+
 
 .navbar-nav {
   float: none;
