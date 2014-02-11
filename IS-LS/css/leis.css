@@ -41,8 +41,8 @@ hr {
   display: none;
 }
 
-#navlinks:hover {
-	color:#fff;
+a#navlinks:hover, a#navlinks:active {
+	color: white;
 }
 
 .navbar-brand {
