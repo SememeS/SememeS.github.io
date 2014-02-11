@@ -37,11 +37,13 @@ hr {
   max-width: 400px;
 }
 
-.brand,
-.address-bar {
-  height: 100px;
+.brand {
+  display: none;
 }
 
+.address-bar {
+	padding-top: 70px;
+}
 
 .navbar-brand {
   text-transform: uppercase;
