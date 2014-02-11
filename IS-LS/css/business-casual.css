@@ -180,30 +180,7 @@ footer p {
         font: 80px 'ChunkFiveRegular';
 }
 
-#three-d2 {
-        color: #fff;
-        text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-        font: 40px 'ChunkFiveRegular';
-}
 
-#three-d3 {
-        color: #fff;
-        text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-        font: 20px 'ChunkFiveRegular';
-}
-
-
-#demo {
-  position: absolute;
-  top: 0px; left: 0px;
-  right: 0px; bottom: 0px;
-}
-#code {
-  border: 1px solid #000;
-  background-color: rgba(255,255,255,0.95);
-  padding: 0.5em;
-  margin: 1em;
-}
 svg {
   display: none;
 }
