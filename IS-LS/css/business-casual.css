@@ -39,7 +39,7 @@ hr {
 
 .brand,
 .address-bar {
-  display: none;
+  height: 100px;
 }
 
 
