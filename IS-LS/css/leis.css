@@ -42,6 +42,7 @@ hr {
 }
 
 #navlinks:hover, #navlinks:active {
+	background: #222;
 	color: white;
 }
 
