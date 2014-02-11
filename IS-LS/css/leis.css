@@ -41,7 +41,9 @@ hr {
   display: none;
 }
 
-
+#navlinks:hover {
+	color:#fff;
+}
 
 .navbar-brand {
   text-transform: uppercase;
@@ -210,10 +212,4 @@ footer p {
 	background: #333;
 }
 
-.navbar-default a:hover {
-	background: #eee;
-}
 
-.navbar-default li a:hover {
-	background: #eee;
-}
