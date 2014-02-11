@@ -214,3 +214,7 @@ footer p {
 .navbar-default a:hover {
 	background: #eee;
 }
+
+.navbar-default li a:hover {
+	background: #eee;
+}
