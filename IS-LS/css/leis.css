@@ -181,7 +181,7 @@ footer p {
   line-height: normal;
 }
 
-.navbar-nav>li>a:hover {
+.navbar>li>a:hover {
   line-height: normal;
 	background: 444;
 	color: #fff;
