@@ -54,6 +54,10 @@ hr {
 	font-family: 'Audiowide', cursive;
 }
 
+.navbar-brand a {
+	color: #fff;
+}
+
 .navbar-text {
 	font-size: 11px;
 	font-family: 'Audiowide', cursive;
