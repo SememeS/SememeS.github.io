@@ -50,12 +50,7 @@ hr {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 900;
-	color: #fff;
 	font-family: 'Audiowide', cursive;
-}
-
-.navbar-brand a {
-	color: #fff;
 }
 
 .navbar-text {
