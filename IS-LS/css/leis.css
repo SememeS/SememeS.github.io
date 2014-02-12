@@ -59,6 +59,7 @@ hr {
 }
 
 .navbar-text {
+	margin-left: 5px;
 	font-size: 11px;
 	font-family: 'Audiowide', cursive;
 }
