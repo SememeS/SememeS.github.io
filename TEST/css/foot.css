@@ -321,23 +321,5 @@
   .leis-footer-top .property .learn-links {
     background: none; } }
 
-.leis-footer-top.bg-blue {
-  background: #2daebf; }
-.leis-footer-top.bg-fblue {
-  background: #074e68; }
-.leis-footer-top.bg-green {
-  background: #b8d30b; }
-.leis-footer-top.bg-dgreen {
-  background: #afc908; }
-.leis-footer-top.bg-magenta {
-  background: #a9014b; }
-.leis-footer-top.bg-orange {
-  background: #ff5c00; }
-.leis-footer-top.bg-lorange {
-  background: #ff6908; }
-.leis-footer-top.bg-oyellow {
-  background: #fc9200; }
-.leis-footer-top.bg-loyellow {
-  background: #ffb515; }
-.leis-footer-top.bg-navy {
-  background: #074e68; }
+.leis-footer-top.bg-gray {
+  background: #666; }
