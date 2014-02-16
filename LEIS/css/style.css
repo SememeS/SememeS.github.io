@@ -1,10 +1,7 @@
 
 .top-bar {
-  height: 70px;
-  line-height: 70px;
-  position: relative;
-  background: #333333;
-  margin-bottom: 0; }
+  
+  background: #333333; }
 	
 
 ul.pricing-table { margin-bottom: 0; }
