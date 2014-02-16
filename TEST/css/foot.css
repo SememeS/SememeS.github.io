@@ -91,13 +91,13 @@
       display: block;
       margin: 30px 0 0 0; }
       .leis-footer-top .global .footer-link-block.services {
-        background: url("../img/icons/footer-studios.png") left top no-repeat; }
+        background: left top no-repeat; }
       .leis-footer-top .global .footer-link-block.foundation {
-        background: url("../img/icons/footer-foundation.png") left top no-repeat; }
+        background: left top no-repeat; }
       .leis-footer-top .global .footer-link-block.apps {
-        background: url("../img/icons/footer-products.png") left top no-repeat; }
+        background: left top no-repeat; }
       .leis-footer-top .global .footer-link-block.expo {
-        background: url("../img/icons/footer-expo.png") left top no-repeat; }
+        background: left top no-repeat; }
       .leis-footer-top .global .footer-link-block span {
         display: block;
         color: white;
@@ -121,7 +121,7 @@
   .leis-footer-bottom a.leis-logo {
     color: #858585;
     font-weight: normal;
-    background: url("../img/icons/footer-icons.png") no-repeat 0 3px;
+    background: no-repeat 0 3px;
     padding: 23px 0 0 0 !important;
     font-size: 0.88889rem;
     display: inline-block;
@@ -164,7 +164,7 @@
         display: block;
         height: 50px;
         width: 50px;
-        background: url("../img/icons/social.png") no-repeat center 0; }
+        background: no-repeat center 0; }
         .leis-footer-bottom ul.home-social li a:hover {
           opacity: 0.8;
           filter: alpha(opacity=80); }
@@ -263,58 +263,38 @@
 /* Retina Images */
 @media only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   .leis-footer-top .info-padding {
-    background-image: url("../img/icons/footer-large-icon-retina.png");
     background-size: 100px 400px; }
   .leis-footer-bottom ul.home-social li a {
-    background-image: url("../img/icons/social-retina.png");
     background-size: 50px 600px; }
   .leis-footer-top .global .footer-link-block {
     font-weight: normal;
     display: block;
     margin: 30px 0 0 0; }
-    .leis-footer-top .global .footer-link-block.services {
-      background: url("../img/icons/footer-studios-retina.png") left top no-repeat; }
-    .leis-footer-top .global .footer-link-block.foundation {
-      background-image: url("../img/icons/footer-foundation-retina.png") left top no-repeat; }
-    .leis-footer-top .global .footer-link-block.apps {
-      background-image: url("../img/icons/footer-products-retina.png") left top no-repeat; }
-    .leis-footer-top .global .footer-link-block.expo {
-      background-image: url("../img/icons/footer-expo-retina.png") left top no-repeat; }
   .leis-footer-bottom a.leis-logo {
-    background-image: url("../img/icons/footer-icons-retina.png");
     background-size: 100px 1400px; }
   .leis-footer-top .property .learn-links, .leis-footer-top .property .support-links, .leis-footer-top .property .connect-links {
-    background-image: url("../img/icons/footer-top-icons-retina.png");
     background-size: 100px 1400px; } }
 
 @media only screen and (max-width: 320px), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
   .leis-footer-top .info-padding {
-    background-image: url("../img/icons/footer-large-icon-retina.png");
     background-size: 100px 400px; }
   .leis-footer-bottom ul.home-social li a {
-    background-image: url("../img/icons/social-retina.png");
     background-size: 50px 600px; }
   .leis-footer-top .global .footer-link-block {
     font-weight: normal;
     display: block;
     margin: 30px 0 0 0; }
     .leis-footer-top .global .footer-link-block.services {
-      background: url("../img/icons/footer-studios-retina.png") left top no-repeat;
       background-size: 30px; }
     .leis-footer-top .global .footer-link-block.foundation {
-      background: url("../img/icons/footer-foundation-retina.png") left top no-repeat;
       background-size: 30px; }
     .leis-footer-top .global .footer-link-block.apps {
-      background: url("../img/icons/footer-products-retina.png") left top no-repeat;
       background-size: 30px; }
     .leis-footer-top .global .footer-link-block.expo {
-      background: url("../img/icons/footer-expo-retina.png") left top no-repeat;
       background-size: 30px; }
   .leis-footer-bottom a.leis-logo {
-    background-image: url("../img/icons/footer-icons-retina.png");
     background-size: 100px 1400px; }
   .leis-footer-top .property .support-links, .leis-footer-top .property .connect-links {
-    background-image: url("../img/icons/footer-top-icons-retina.png");
     background-size: 100px 1400px; } }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
