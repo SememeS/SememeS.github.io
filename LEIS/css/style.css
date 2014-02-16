@@ -1,7 +1,8 @@
 
 .contain-to-grid {
-  Height: 60px; }
+  height: 70px; }
   .contain-to-grid .top-bar {
+		height: 70px;
     margin-bottom: 0; }
 	
 
