@@ -1,5 +1,8 @@
 
-
-.top-bar, .title-area, .top-bar-section {
-	padding: 10px;
-}
+.top-bar {
+  overflow: hidden;
+  height: 70px;
+  line-height: 70px;
+  position: relative;
+  background: #333333;
+  margin-bottom: 0; }
