@@ -12,3 +12,7 @@
 #Smooshed, img {
 	padding: 0px;
 	margin: 0px; }
+	
+#Smooshed, h4, p {
+	padding: 10px;
+	margin: 10px; }
