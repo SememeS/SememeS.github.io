@@ -9,6 +9,6 @@
 #Smooshed {
 	border: 1px solid #aaa; }
 	
-#Smooshed>img {
+#Smooshed, img {
 	padding: 0px;
 	margin: 0px; }
