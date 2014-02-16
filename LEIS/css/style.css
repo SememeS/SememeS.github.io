@@ -1,10 +1,33 @@
 
 .contain-to-grid {
-  padding-top: 30px;
 	height: 70px; }
-  .contain-to-grid .top-bar {
-		height: 70px;
-    margin-bottom: 0; }
+.contain-to-grid .top-bar {
+	height: 70px; }
+		
+.top-bar {
+  height: 70px;
+  line-height: 70px; }
+	
+.top-bar .name {
+   height: 70px; }
+.top-bar .name h1 {
+   line-height: 70px; }
+	 
+.top-bar .toggle-topbar a {
+   height: 70px;
+   line-height: 70px; }
+	 
+@media only screen and (min-width: 40.063em) {
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+   line-height: 70px; }
+.top-bar-section li.active:not(.has-form) a:not(.button) {
+   line-height: 70px; }
+.top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
+	 height: 70px; }
+.top-bar-section .has-form {
+	 height: 70px; }
+}
 	
 
 ul.pricing-table { margin-bottom: 0; }
