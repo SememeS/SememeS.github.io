@@ -6,12 +6,14 @@
   background: #333333;
   margin-bottom: 0; }
 	
-#Smooshed {
-	border: 1px solid #aaa; }
-	
-#Smooshed, img {
-	padding: 0px;
-	margin: 0px; }
-	
-#Smooshed>h4>p {
-	padding: 10px; }
+
+ul.pricing-table { margin-bottom: 0; }
+ul.pricing-table .price { background: #f8f8f8;  }
+ul.pricing-table i { display: inline-block; margin-right: 5px; } 
+
+.recommended { box-shadow: 0 0 10px rgba(0,0,0,0.25); position: relative; z-index: 2; }
+
+@media only screen and (min-width: 768px){
+  .left-side { border-right: none; }
+  .right-side { border-left: none; }
+}   
