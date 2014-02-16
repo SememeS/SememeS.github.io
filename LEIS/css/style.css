@@ -1,9 +1,9 @@
-body {
-	padding-top: 60px; }
 
-.top-bar {
-  padding-top: 30px;
+.contain-to-grid {
+  width: 100%;
   background: #333333; }
+  .contain-to-grid .top-bar {
+    margin-bottom: 0; }
 	
 
 ul.pricing-table { margin-bottom: 0; }
