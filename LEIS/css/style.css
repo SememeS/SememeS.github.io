@@ -8,3 +8,7 @@
 	
 #Smooshed {
 	border: 1px solid #aaa; }
+	
+#Smooshed>img {
+	padding: 0px;
+	margin: 0px; }
