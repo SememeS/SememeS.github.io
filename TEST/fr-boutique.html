@@ -217,7 +217,10 @@ LEIS
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/vendor/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/foundation.min.js"></script>
 <script>
- $(document).foundation();
+$(document).foundation();
+ 
+var doc = document.documentElement;
+doc.setAttribute('data-useragent', navigator.userAgent);
 </script>
 
 </body>
