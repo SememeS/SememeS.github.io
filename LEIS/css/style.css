@@ -1,87 +1,105 @@
+
+$column-gutter: rem-calc(0);
+
 /*Global Footer*/
 .zurb-footer-top {
-  padding: 40px 0;
-  color: white; }
-  .zurb-footer-top .row .columns {
-    *zoom: 1; }
-    .zurb-footer-top .row .columns:before, .zurb-footer-top .row .columns:after {
-      content: " ";
-      display: table; }
-    .zurb-footer-top .row .columns:after {
-      clear: both; }
-  .zurb-footer-top.zurb {
-    background-position: 10px 7px; }
-  .zurb-footer-top .property {
-    text-align: center; }
-    .zurb-footer-top .property .property-info {
-      padding-top: 37px; }
-    .zurb-footer-top .property h2 {
-      margin: 0;
-      padding: 0 !important; }
-      .zurb-footer-top .property h2 a {
-        -webkit-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        transition: all 0.25s ease-in-out;
-        font-family: "zurb-logo";
-        font-weight: normal;
-        font-size: em-calc(18px);
-        padding: 0; }
-        .zurb-footer-top .property h2 a:hover {
-          opacity: 0.8;
-          filter: alpha(opacity=80); }
-        .zurb-footer-top .property h2 a.services {
-          width: 190px; }
-        .zurb-footer-top .property h2 a span {
-          display: none; }
-        .zurb-footer-top .property h2 a strong {
-          font-size: 17px;
-          margin-left: -7px; }
-    .zurb-footer-top .property h3 {
-      font-size: 1.4rem;
-      font-weight: bold;
-      color: white;
-      margin-bottom: 20px; }
-    .zurb-footer-top .property h4 {
-      font-size: 1.1rem;
-      font-weight: 200;
-      color: white;
-      margin-bottom: 10px; }
-    .zurb-footer-top .property p, .zurb-footer-top .property li, .zurb-footer-top .property a {
-      font-size: 13px;
-      line-height: 21px;
-      color: white; }
-    .zurb-footer-top .property a {
-      font-weight: bold;
-      color: white; }
-  .zurb-footer-top .learn-links, .zurb-footer-top .support-links, .zurb-footer-top .connect-links {
-    padding: 50px 0 0 0;
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    background: url(../img/../img/icons/footer-top-icons.png) no-repeat center 0;
-    height: 220px;
-    margin-bottom: 30px; }
-    .zurb-footer-top .learn-links ul, .zurb-footer-top .support-links ul, .zurb-footer-top .connect-links ul {
-      margin-left: 0px !important;
-      list-style: none; }
-      .zurb-footer-top .learn-links ul li, .zurb-footer-top .support-links ul li, .zurb-footer-top .connect-links ul li {
-        line-height: 20px; }
-  .zurb-footer-top .learn-links {
-    background-position: center -325px; }
-  .zurb-footer-top .support-links {
-    background-position: center -635px; }
-  .zurb-footer-top .connect-links {
-    padding: 50px 20px 0;
-    background-position: center -9px; }
-    .zurb-footer-top .connect-links .button {
-      font-size: 12px;
-      font-weight: normal;
-      background: rgba(0, 0, 0, 0.1);
-      color: white !important;
-      font-weight: bold;
-      text-shadow: none;
-      box-shadow: none;
-      -webkit-box-shadow: none;
-      -moz-box-shadow: none;
+	padding: 40px 0;
+	color: white;
+}
+
+.zurb-footer-top .row .columns {
+	*zoom: 1;
+}
+
+.zurb-footer-top .row .columns:before, .zurb-footer-top .row .columns:after {
+	content: " ";
+	display: table;
+}
+
+.zurb-footer-top .row .columns:after {
+	clear: both; 
+}
+
+.zurb-footer-top.zurb {
+	background-position: 10px 7px;
+}
+
+.zurb-footer-top .property {
+	text-align: center; 
+}
+
+.zurb-footer-top .property .property-info {
+	padding-top: 37px; 
+}
+
+.zurb-footer-top .property h2 {
+	margin: 0;
+	padding: 0 !important; }
+
+.zurb-footer-top .property h2 a {
+-webkit-transition: all 0.25s ease-in-out;
+-moz-transition: all 0.25s ease-in-out;
+-o-transition: all 0.25s ease-in-out;
+transition: all 0.25s ease-in-out;
+font-family: "zurb-logo";
+font-weight: normal;
+font-size: em-calc(18px);
+padding: 0; }
+.zurb-footer-top .property h2 a:hover {
+opacity: 0.8;
+filter: alpha(opacity=80); }
+.zurb-footer-top .property h2 a.services {
+width: 190px; }
+.zurb-footer-top .property h2 a span {
+display: none; }
+.zurb-footer-top .property h2 a strong {
+font-size: 17px;
+margin-left: -7px; }
+.zurb-footer-top .property h3 {
+font-size: 1.4rem;
+font-weight: bold;
+color: white;
+margin-bottom: 20px; }
+.zurb-footer-top .property h4 {
+font-size: 1.1rem;
+font-weight: 200;
+color: white;
+margin-bottom: 10px; }
+.zurb-footer-top .property p, .zurb-footer-top .property li, .zurb-footer-top .property a {
+font-size: 13px;
+line-height: 21px;
+color: white; }
+.zurb-footer-top .property a {
+font-weight: bold;
+color: white; }
+.zurb-footer-top .learn-links, .zurb-footer-top .support-links, .zurb-footer-top .connect-links {
+padding: 50px 0 0 0;
+border-left: 1px solid rgba(255, 255, 255, 0.2);
+background: url(../img/../img/icons/footer-top-icons.png) no-repeat center 0;
+height: 220px;
+margin-bottom: 30px; }
+.zurb-footer-top .learn-links ul, .zurb-footer-top .support-links ul, .zurb-footer-top .connect-links ul {
+margin-left: 0px !important;
+list-style: none; }
+.zurb-footer-top .learn-links ul li, .zurb-footer-top .support-links ul li, .zurb-footer-top .connect-links ul li {
+line-height: 20px; }
+.zurb-footer-top .learn-links {
+background-position: center -325px; }
+.zurb-footer-top .support-links {
+background-position: center -635px; }
+.zurb-footer-top .connect-links {
+padding: 50px 20px 0;
+background-position: center -9px; }
+.zurb-footer-top .connect-links .button {
+font-size: 12px;
+font-weight: normal;
+background: rgba(0, 0, 0, 0.1);
+color: white !important;
+font-weight: bold;
+text-shadow: none;
+box-shadow: none;
+-webkit-box-shadow: none;
+-moz-box-shadow: none;
       border: none;
       padding: 6px 16px; }
   .zurb-footer-top .global {
