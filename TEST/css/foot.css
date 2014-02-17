@@ -19,6 +19,10 @@ header, h1 {
 	color: #eee;
 }
 
+#logoTitle {
+	font-family: 'Audiowide', cursive;
+}
+
 
 ul.pricing-table { margin-bottom: 0; }
 ul.pricing-table .price { background: #f8f8f8;  }
