@@ -19,22 +19,23 @@ header, h1 {
 	color: #eee;
 }
 
-#lang {
+#lang, a {
+	display: block;
 	background:#118cc5;
 	color:#fff;
 }
 
-#lang:hover {
+#lang, a:hover {
 	background:#35aded;
 	color:#eee;
 }
 
-#lang:active {
+#lang, a:active {
 	background:#35aded;
 	color:#eee;
 }
 
-#lang:focus {
+#lang, a:focus {
 	background:#35aded;
 	color:#eee;
 }
