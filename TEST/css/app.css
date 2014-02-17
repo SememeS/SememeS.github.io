@@ -6218,7 +6218,7 @@ p aside {
 /* Default header styles */
 /* line 260, ../bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: 'Audiowide', cursive;
   font-weight: normal;
   font-style: normal;
   color: #222222;
