@@ -39,13 +39,10 @@ header, h1 {
 	color:#eee;
 }
 
-.connect-links>i {
+.fi-at-sign, .fi-telephone {
 	color: #118cc5;
 }
 
-.connect-links>.small-button {
-	color: #fff;
-}
 
 /* Global Footer */
 .leis-footer-top {
