@@ -24,6 +24,11 @@ header, h1 {
 	color:#fff;
 }
 
+#langEN {
+	background:#ed3535;
+}
+
+
 #lang>a:hover {
 	background:#35aded;
 	color:#eee;
