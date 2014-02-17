@@ -19,6 +19,26 @@ header, h1 {
 	color: #eee;
 }
 
+#lang {
+	display: block;
+	background:#118cc5;
+	color:#fff;
+}
+
+#lang:hover {
+	background:#35aded;
+	color:#eee;
+}
+
+#lang:active {
+	background:#35aded;
+	color:#eee;
+}
+
+#lang:focus {
+	background:#35aded;
+	color:#eee;
+}
 
 /* Global Footer */
 .leis-footer-top {
