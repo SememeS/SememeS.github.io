@@ -25,6 +25,10 @@ header, h1 {
 	font-size: 30px;
 }
 
+#infobutt {
+	color: #118cc5;
+}
+
 ul.pricing-table { margin-bottom: 0; }
 ul.pricing-table .price { background: #f8f8f8;  }
 ul.pricing-table i { display: inline-block; margin-right: 5px; } 
