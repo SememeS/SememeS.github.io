@@ -5646,7 +5646,7 @@ meta.foundation-mq-topbar {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.1);
   border-left-style: solid;
   margin-right: 23.33333px;
   margin-top: -4.5px;
@@ -5707,7 +5707,7 @@ meta.foundation-mq-topbar {
   padding: 8px 23.33333px 2px;
   margin-bottom: 0;
   text-transform: uppercase;
-  color: #444444;
+  color: #777777;
   font-weight: bold;
   font-size: 0.625rem;
 }
