@@ -20,6 +20,10 @@ header, h1 {
 	color: #eee;
 }
 
+.dropdown {
+	font-family: 'Maven Pro', sans-serif;
+}
+
 #logoTitle {
 	font-family: 'Audiowide', cursive;
 	font-size: 30px;
