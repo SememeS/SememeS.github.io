@@ -5535,7 +5535,7 @@ meta.foundation-mq-topbar {
 }
 /* line 244, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
-  color: #888888;
+  color: #444444;
 }
 /* line 245, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a span {
@@ -5646,7 +5646,7 @@ meta.foundation-mq-topbar {
   width: 0;
   height: 0;
   border: inset 5px;
-  border-color: transparent transparent transparent rgba(255, 255, 255, 0.1);
+  border-color: transparent transparent transparent rgba(255, 255, 255, 0.4);
   border-left-style: solid;
   margin-right: 23.33333px;
   margin-top: -4.5px;
