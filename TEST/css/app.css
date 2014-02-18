@@ -5539,8 +5539,8 @@ meta.foundation-mq-topbar {
 }
 /* line 245, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a span {
-  -webkit-box-shadow: 0 10px 0 1px #222, 0 16px 0 1px #222, 0 22px 0 1px #222;
-  box-shadow: 0 10px 0 1px #222, 0 16px 0 1px #222, 0 22px 0 1px #222;
+  -webkit-box-shadow: 0 10px 0 1px #282828, 0 16px 0 1px #282828, 0 22px 0 1px #282828;
+  box-shadow: 0 10px 0 1px #282828, 0 16px 0 1px #282828, 0 22px 0 1px #282828;
 }
 
 /* line 265, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
