@@ -44,6 +44,10 @@ header, h1 {
 	font-size: 30px;
 }
 
+.name {
+	padding-top: -10px;
+}
+
 #sub-title {
 	font-weight: bold;
 	font-size: 8px;
