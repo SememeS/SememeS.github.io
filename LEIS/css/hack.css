@@ -45,10 +45,10 @@ header, h1 {
 }
 
 #sub-title {
-	font-family: 'Maven Pro', sans-serif;
 	font-weight: bold;
 	font-size: 8px;
 	color: #666;
+	font-family: 'Maven Pro', sans-serif;
 }
 
 #infobutt {
