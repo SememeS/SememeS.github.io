@@ -438,9 +438,9 @@ background: #333; /*the colour of the button*/
 border:1px solid #333; /*required or the default border for the browser will appear*/
 cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/ 
 color: #fff;
--webkit-box-shadow: inset 0px 1px 0px #222, 0px 5px 0px 0px #222, 0px 10px 5px #999;
--moz-box-shadow: inset 0px 1px 0px #222, 0px 5px 0px 0px #222, 0px 10px 5px #999;
-box-shadow: inset 0px 1px 0px #222, 0px 5px 0px 0px #222, 0px 10px 5px #999;
+-webkit-box-shadow: inset 0px 1px 0px #222, 0px 5px 0px 0px #222, 0px 8px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #222, 0px 5px 0px 0px #222, 0px 8px 5px #999;
+box-shadow: inset 0px 1px 0px #222, 0px 5px 0px 0px #222, 0px 8px 5px #999;
 }
 /***SET THE BUTTON'S HOVER AND FOCUS STATES***/
 #bigbutt:hover, #bigbutt:focus {
