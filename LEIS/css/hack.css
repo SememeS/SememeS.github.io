@@ -16,6 +16,11 @@ header {
 	background-size: 100% 1000px;
 }
 
+#topdrop {
+	font-family: font-family: 'Maven Pro', sans-serif;
+	font-size: 20px;
+}
+
 header, h1 {
 	color: #eee;
 }
