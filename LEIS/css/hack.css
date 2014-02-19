@@ -25,12 +25,10 @@ header, h1 {
 	color: #eee;
 }
 
-.title-area {
+.title-area, .name {
 	margin-top: -30px;
-	margin-right: -20px;
 	margin-bottom: -20px;
 	padding-top: -30px;
-	padding-right: -20px;
 	padding-bottom: -20px;
 }
 
