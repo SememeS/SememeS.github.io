@@ -50,18 +50,6 @@ header, h1 {
 }
 
 
-ul.pricing-table { margin-bottom: 0; }
-ul.pricing-table .price { background: #f8f8f8;  }
-ul.pricing-table i { display: inline-block; margin-right: 5px; } 
-
-.recommended { box-shadow: 0 0 10px rgba(0,0,0,0.25); position: relative; z-index: 2; }
-
-@media only screen and (min-width: 768px){
-  .left-side { border-right: none; }
-  .right-side { border-left: none; }
-}
-
-
 #lang>a {
 	background:#118cc5;
 	color:#fff;
@@ -105,6 +93,29 @@ ul.pricing-table i { display: inline-block; margin-right: 5px; }
 .fi-at-sign, .fi-telephone {
 	color: #118cc5;
 }
+
+
+p.vignette {
+  position: relative;
+}
+p.vignette img {
+ display: block;
+}
+p.vignette:after {
+ -moz-box-shadow: inset 0 0 10em #666;  
+ -webkit-box-shadow: inset 0 0 10em #666;   
+ box-shadow: inset 0 0 10em #666;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: 2;
+ content: "";
+}
+
+
+
 
 
 /* Global Footer */
