@@ -102,23 +102,16 @@ LEIS
 <div class="row">
 <!-- Side Bar -->
 
-<div class="large-4 small-12 columns">
+<div class="large-4 medium-4 small-12 columns">
 <div class="sidebar">
 
 <nav id="shopnav">
-    <ul class="side-nav">
-      <li class="heading">LED - <small>Light Emitting Diodes</small></li>
-      <hr>
-			<li><a href="" data-search="">1</a></li>
-			<hr>
-      <li><a href="" data-search="">2</a></li>
-			<hr>
-			<li><a href="" data-search="">3</a></li>
-			<hr>
-			<li><a href="" data-search="">4</a></li>
-			<hr>
-			<li><a href="" data-search="">5</a></li>
-			<hr>
+<dl class="tabs vertical" data-tab>
+<dd class="active"><a href="#panel1a">Tab 1</a></dd>
+<dd><a href="#panel2a">Tab 2</a></dd>
+<dd><a href="#panel3a">Tab 3</a></dd>
+<dd><a href="#panel4a">Tab 4</a></dd>
+</dl>
 			<form>
     <!--  <label>Search Documentation</label> -->
     <input tabindex="1" id="autocomplete" type="search" placeholder="Search">
@@ -129,10 +122,17 @@ LEIS
 </div><!-- End Side Bar -->
 
 
+
 <!-- Thumbnails -->
 <br>
 <div class="large-8 columns">
 <div class="row">
+
+
+<div class="tabs-content vertical">
+<div class="content active" id="panel1a"><!-- CATEGORY 1 -->
+
+
 <div class="large-4 small-6 columns">
 <img src="http://placehold.it/1000x1000&amp;text=Thumbnail">
 
@@ -192,7 +192,28 @@ LEIS
 <h6 class="subheader">$000.00</h6>
 </div>
 </div>
+
+</div>
+
+
+<div class="content" id="panel2a">
+<p>Panel 2 content goes here.</p>
+</div>
+<div class="content" id="panel3a">
+<p>Panel 3 content goes here.</p>
+</div>
+<div class="content" id="panel4a">
+<p>Panel 4 content goes here.</p>
+</div>
+</div>
+
+
+
+
+</div>
 </div><!-- End Thumbnails -->
+
+
 <!-- Managed By -->
 
 <div class="row">
