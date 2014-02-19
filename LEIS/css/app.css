@@ -5788,7 +5788,7 @@ meta.foundation-mq-topbar {
   /* line 471, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li:not(.has-form) a:not(.button) {
     padding: 0 23.33333px;
-    line-height: 70px;
+    line-height: 80px;
     background: #333333;
   }
   /* line 475, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
@@ -5798,7 +5798,7 @@ meta.foundation-mq-topbar {
   /* line 479, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section li.active:not(.has-form) a:not(.button) {
     padding: 0 23.33333px;
-    line-height: 70px;
+    line-height: 80px;
     color: white;
     background: #008cba;
   }
@@ -5874,14 +5874,14 @@ meta.foundation-mq-topbar {
     border-top: none;
     border-right: solid 1px #4e4e4e;
     clear: none;
-    height: 70px;
+    height: 80px;
     width: 0;
   }
   /* line 567, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
     background: #333333;
     padding: 0 23.33333px;
-    height: 70px;
+    height: 80px;
   }
   /* line 575, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .right li .dropdown {
