@@ -62,6 +62,8 @@ header, h1 {
 }
 
 #sub-contact {
+	margin-top: -80px;
+	padding-top: -80px;
 }
 
 #infobutt {
