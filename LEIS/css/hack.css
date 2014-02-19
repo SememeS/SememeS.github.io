@@ -435,12 +435,8 @@ ul.pricing-table i { display: inline-block; margin-right: 5px; }
 
 #bigbutt {
 background: #333; /*the colour of the button*/
-padding: 8px 14px 10px; 
-border:1px solid #3e9cbf; /*required or the default border for the browser will appear*/
-cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
-font-size:1.5em;
-letter-spacing:.1em;
-text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); 
+border:1px solid #333; /*required or the default border for the browser will appear*/
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/ 
 color: #fff;
 -webkit-box-shadow: inset 0px 1px 0px #222, 0px 5px 0px 0px #222, 0px 10px 5px #999;
 -moz-box-shadow: inset 0px 1px 0px #222, 0px 5px 0px 0px #222, 0px 10px 5px #999;
@@ -448,11 +444,11 @@ box-shadow: inset 0px 1px 0px #222, 0px 5px 0px 0px #222, 0px 10px 5px #999;
 }
 /***SET THE BUTTON'S HOVER AND FOCUS STATES***/
 #bigbutt:hover, #bigbutt:focus {
-color:#dfe7ea;
+color:#555;
 /*reduce the size of the shadow to give a pushed effect*/
--webkit-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
--moz-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
-box-shadow: inset 0px 1px 0px #3e9cbf, 0px 2px 0px 0px #205c73, 0px 2px 5px #999;
+-webkit-box-shadow: inset 0px 1px 0px #222, 0px 2px 0px 0px #222, 0px 2px 5px #999;
+-moz-box-shadow: inset 0px 1px 0px #222, 0px 2px 0px 0px #222, 0px 2px 5px #999;
+box-shadow: inset 0px 1px 0px #222, 0px 2px 0px 0px #222, 0px 2px 5px #999;
 }
 
 	
