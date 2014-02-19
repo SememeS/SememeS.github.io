@@ -4414,9 +4414,9 @@ ul.pagination li {
   padding: 0.9375rem 1.25rem;
   text-align: center;
   color: #eeeeee;
-  font-weight: normal;
+  font-weight: ultra-bold;
   font-size: 1rem;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-family: 'Maven Pro', sans-serif;
 }
 /* line 139, ../bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
 .pricing-table .price {
