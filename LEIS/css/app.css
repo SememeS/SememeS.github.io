@@ -5476,7 +5476,7 @@ meta.foundation-mq-topbar {
   color: white;
   width: 50%;
   display: block;
-  padding: 0 23.33333px;
+  padding: 0 15px;
 }
 /* line 179, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar {
