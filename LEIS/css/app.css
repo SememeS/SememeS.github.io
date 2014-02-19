@@ -5413,14 +5413,14 @@ meta.foundation-mq-topbar {
 /* line 115, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .fixed.expanded:not(.top-bar) .top-bar-section {
   z-index: 98;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 /* line 122, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar {
   overflow: hidden;
-  height: 70px;
-  line-height: 70px;
+  height: 80px;
+  line-height: 80px;
   position: relative;
   background: #333333;
   margin-bottom: 0;
@@ -5460,13 +5460,13 @@ meta.foundation-mq-topbar {
 }
 /* line 159, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name {
-  height: 70px;
+  height: 80px;
   margin: 0;
   font-size: 16px;
 }
 /* line 164, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .name h1 {
-  line-height: 70px;
+  line-height: 80px;
   font-size: 1.0625rem;
   margin: 0;
 }
@@ -5493,8 +5493,8 @@ meta.foundation-mq-topbar {
   position: relative;
   display: block;
   padding: 0 23.33333px;
-  height: 70px;
-  line-height: 70px;
+  height: 80px;
+  line-height: 80px;
 }
 /* line 197, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar .toggle-topbar.menu-icon {
@@ -5535,12 +5535,7 @@ meta.foundation-mq-topbar {
 }
 /* line 244, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
 .top-bar.expanded .toggle-topbar a {
-  color: #eee;
-}
-/* line 245, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
-.top-bar.expanded .toggle-topbar a span {
-  -webkit-box-shadow: 0 10px 0 1px #282828, 0 16px 0 1px #282828, 0 22px 0 1px #282828;
-  box-shadow: 0 10px 0 1px #282828, 0 16px 0 1px #282828, 0 22px 0 1px #282828;
+  color: #444;
 }
 
 /* line 265, ../bower_components/foundation/scss/foundation/components/_top-bar.scss */
