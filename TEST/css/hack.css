@@ -20,6 +20,11 @@ header, h1 {
 	color: #eee;
 }
 
+.heading {
+	background: #444;
+	font-family: 'Maven Pro', sans-serif;
+}
+
 .dropdown {
 	font-family: 'Maven Pro', sans-serif;
 }
