@@ -25,7 +25,7 @@ header, h1 {
 	color: #eee;
 }
 
-.title-area, .name {
+#title-name {
 	margin-top: -30px;
 	margin-bottom: -20px;
 	padding-top: -30px;
