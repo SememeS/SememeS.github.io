@@ -30,8 +30,8 @@ header, h1 {
 }
 
 #titleContact {
-	margin-bottom: -60px;
-	padding-top: 20px;
+	margin-top: -60px;
+	padding-top: -20px;
 	font-size: 9px;
 }
 
