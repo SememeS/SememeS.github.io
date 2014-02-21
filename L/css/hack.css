@@ -29,6 +29,12 @@ header, h1 {
 	margin-top: -8px;
 }
 
+#titleContact {
+	margin: 0px;
+	padding: 0px;
+	font-size: 9px;
+}
+
 #who {
 	padding-left: 10px;
 	padding-right: 10px;
