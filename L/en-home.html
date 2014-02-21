@@ -101,56 +101,42 @@ LEIS
 <br>
 </div>
 <hr/>
+<br>
 
-<header>
 <div class="row">
 <div class="large-12 columns">
-<h1><i class="fi-sound"></i> SERVICES <small>DOMOTIQUE</small></h1>
+<h2><i class="fi-sound"></i> SERVICES <small>DOMOTIQUE</small></h2>
 </div>
-</div>
-</header>
-<br>	
+</div>	
 	
 <div class="row collapse" data-equalizer>
 
 <div class="large-6 medium-6 columns" data-equalizer-watch>
-<ul class="pricing-table">
-<li class="title">Industrial Control, Automation & Maintenance</li>
-<li class="bullet-item">Design & Programming </li>
-<li class="bullet-item">Control-Panel creation</li>
-<li class="bullet-item">Processes and Instrumentations</li>
-<li class="bullet-item">Control Loop</li>
-<li class="bullet-item">PLC, Automate, HMI</li>
-<li class="bullet-item">Maintenance & Troubleshooting of equipment</li>
-<li class="bullet-item">Systems Integration</li>
-<li class="bullet-item">Access Control</li>
-<li class="bullet-item">Remote Management</li>
-<li class="bullet-item">Emergencies! 24h, 7 days a week</li>
-<br>
-</ul>
+
+
 </div>
 
 <div class="large-6 medium-6 columns" data-equalizer-watch>
-<ul class="pricing-table right-side">
-<li class="title">Home & Commercial Automation</li>
-<li class="bullet-item">Installation of home automation systems</li>
-<li class="bullet-item">Custom installation of your systems</li>
-<li class="bullet-item">Upgrade of current systems</li>
-<li class="bullet-item">Integration of existing equipment</li>
-<li class="bullet-item">Support for your projects</li>
-<li class="bullet-item">Custom Projects</li>
-<li class="bullet-item">Clée main</li>
-<li class="bullet-item">Reduction of energy costs </li>
-<li class="bullet-item">Comfort guaranteed</li>
-<li class="bullet-item">Absolute safety</li>
-<br>
-</ul>
+
+
 </div>
 
 </div>
 
 
+<div class="row collapse" data-equalizer>
 
+<div class="large-6 medium-6 columns" data-equalizer-watch>
+
+
+</div>
+
+<div class="large-6 medium-6 columns" data-equalizer-watch>
+
+
+</div>
+
+</div>
 
 
 <!-- Footer -->
@@ -232,6 +218,15 @@ $(document).foundation();
 
 var doc = document.documentElement;
 doc.setAttribute('data-useragent', navigator.userAgent);
+
+$(window).scroll(function(e){
+  parallax();
+});
+
+function parallax(){
+  var scrolled = $(window).scrollTop();
+  $('#mobley-header').css('background-position','center ' + -(scrolled*0.35)+'px');
+}
 </script>
 
 </body>
