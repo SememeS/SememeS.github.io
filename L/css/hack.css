@@ -124,6 +124,12 @@ header, h1 {
 	color: #118cc5;
 }
 
+#orbit-button {
+	margin-top: 10px;
+	margin-bottom: -20px;
+	padding-bottom: -20px;
+}
+
 
 ul.pricing-table { margin-bottom: 0; }
 ul.pricing-table .price { background: #f8f8f8;  }
