@@ -30,7 +30,7 @@ header, #showroom {
 /* W3C Markup, IE10 Release Preview */ 
 	background-image: radial-gradient(circle farthest-corner at center, #444 0%, #222 100%);
 	background-size: 100% 1000px;
-	margin-bottom: -40px;
+	padding-bottom: -40px;
 }
 
 
