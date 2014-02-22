@@ -136,6 +136,17 @@ header, h1 {
 }
 
 
+
+
+.fb-list {
+	margin-top: -5px;
+	padding-top: -5px;
+}
+
+
+
+
+
 ul.pricing-table { margin-bottom: 0; }
 ul.pricing-table .price { background: #f8f8f8;  }
 ul.pricing-table i { display: inline-block; margin-right: 5px; } 
