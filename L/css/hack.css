@@ -126,6 +126,13 @@ header, h1 {
 	zoom: 1;
 	filter: alpha(opacity=33);
 	opacity: 0.33;
+	height:400px;
+}
+
+#orbit-text {
+	zoom: 1;
+	filter: alpha(opacity=100);
+	opacity: 1.0;
 }
 
 
