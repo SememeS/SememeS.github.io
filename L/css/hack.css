@@ -122,6 +122,12 @@ header, h1 {
 	color: #118cc5;
 }
 
+.orbit-caption {
+	zoom: 1;
+	filter: alpha(opacity=33);
+	opacity: 0.33;
+}
+
 
 
 ul.pricing-table { margin-bottom: 0; }
