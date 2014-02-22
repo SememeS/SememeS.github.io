@@ -125,8 +125,9 @@ header, h1 {
 }
 
 #orbit-headlines {
-	margin-top: -40px;
-	padding-top: -40px;
+	margin-top: -80px;
+	padding-top: -80px;
+	font-weight: bold;
 }
 
 
