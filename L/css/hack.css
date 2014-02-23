@@ -17,7 +17,6 @@ header, #showroom {
 }
 
 
-
 #topdrop {
 	font-family: font-family: 'Maven Pro', sans-serif;
 	font-size: 10px;
@@ -142,13 +141,13 @@ header, h1 {
 }
 
 
-
-
 ul.pricing-table { margin-bottom: 0; }
 ul.pricing-table .price { background: #f8f8f8;  }
 ul.pricing-table i { display: inline-block; margin-right: 5px; } 
 
 .recommended { box-shadow: 0 0 10px rgba(0,0,0,0.25); position: relative; z-index: 2; }
+
+
 
 @media only screen and (min-width: 768px){
   .left-side { border-right: none; }
@@ -159,186 +158,280 @@ ul.pricing-table i { display: inline-block; margin-right: 5px; }
 /* Global Footer */
 .leis-footer-top {
   padding: 40px 0;
-  color: white; }
-  .leis-footer-top .row .columns {
-    *zoom: 1; }
-    .leis-footer-top .row .columns:before, .leis-footer-top .row .columns:after {
-      content: " ";
-      display: table; }
-    .leis-footer-top .row .columns:after {
-      clear: both; }
-  .leis-footer-top.leis {
-    background-position: 10px 7px; }
-  .leis-footer-top .property {
-    text-align: center; }
-    .leis-footer-top .property .property-info {
-      padding-top: 10px; }
-    .leis-footer-top .property h2 {
-      margin: 0;
-      padding: 0 !important; }
-      .leis-footer-top .property h2 a {
-        -webkit-transition: all 0.25s ease-in-out;
-        -moz-transition: all 0.25s ease-in-out;
-        -o-transition: all 0.25s ease-in-out;
-        transition: all 0.25s ease-in-out;
-        font-family: "leis-logo";
-        font-weight: normal;
-        font-size: 1rem;
-        padding: 0; }
-        .leis-footer-top .property h2 a:hover {
-          opacity: 0.8;
-          filter: alpha(opacity=80); }
-        .leis-footer-top .property h2 a.services {
-          width: 190px; }
-        .leis-footer-top .property h2 a span {
-          display: none; }
-        .leis-footer-top .property h2 a strong {
-          font-size: 17px;
-          margin-left: -7px; }
-    .leis-footer-top .property h3 {
-      font-size: 1.4rem;
-      font-weight: bold;
-      color: white;
-      margin-bottom: 20px; }
-    .leis-footer-top .property h4 {
-      font-size: 1.1rem;
-      font-weight: 200;
-      color: white;
-      margin-bottom: 10px; }
-    .leis-footer-top .property p, .leis-footer-top .property li, .leis-footer-top .property a {
-      font-size: 13px;
-      line-height: 21px;
-      color: white; }
-    .leis-footer-top .property a {
-      font-weight: bold;
-      color: white; }
-  .leis-footer-top .learn-links, .leis-footer-top .support-links, .leis-footer-top .connect-links {
-    padding: 50px 0 0 0;
-    border-left: 1px solid rgba(255, 255, 255, 0.2);
-    background: url(../img/../img/icons/footer-top-icons.png) no-repeat center 0;
-    height: 220px;
-    margin-bottom: 30px; }
-    .leis-footer-top .learn-links ul, .leis-footer-top .support-links ul, .leis-footer-top .connect-links ul {
-      margin-left: 0px !important;
-      list-style: none; }
-      .leis-footer-top .learn-links ul li, .leis-footer-top .support-links ul li, .leis-footer-top .connect-links ul li {
-        line-height: 20px; }
-  .leis-footer-top .learn-links {
-    background-position: center -325px; }
-  .leis-footer-top .support-links {
-    background-position: center -635px; }
-  .leis-footer-top .connect-links {
-    padding: 50px 20px 0;
-    background-position: center -9px; }
-    .leis-footer-top .connect-links .button {
-      font-size: 12px;
-      font-weight: normal;
-      background: rgba(0, 0, 0, 0.1);
-      color: white !important;
-      font-weight: bold;
-      text-shadow: none;
-      box-shadow: none;
-      -webkit-box-shadow: none;
-      -moz-box-shadow: none;
-      border: none;
-      padding: 6px 16px; }
-  .leis-footer-top .global {
-    border-top: 1px solid rgba(255, 255, 255, 0.2); }
-    .leis-footer-top .global .footer-link-block {
-      font-weight: normal;
-      display: block;
-      margin: 30px 0 0 0; }
-      .leis-footer-top .global .footer-link-block.services {
-        background: left top no-repeat; }
-      .leis-footer-top .global .footer-link-block.foundation {
-        background: left top no-repeat; }
-      .leis-footer-top .global .footer-link-block.apps {
-        background: left top no-repeat; }
-      .leis-footer-top .global .footer-link-block.expo {
-        background: left top no-repeat; }
-      .leis-footer-top .global .footer-link-block span {
-        display: block;
-        color: white;
-        font-size: 0.75rem;
-        padding-left: 40px;
-        line-height: 18px; }
-        .leis-footer-top .global .footer-link-block span.title {
-          font-size: 1rem;
-          margin-bottom: 5px; }
+  color: white; 
+}
+
+.leis-footer-top .row .columns {
+  *zoom: 1; 
+}
+
+.leis-footer-top .row .columns:before, .leis-footer-top .row .columns:after {
+  content: " ";
+  display: table; 
+}
+
+.leis-footer-top .row .columns:after {
+  clear: both; 
+}
+
+.leis-footer-top.leis {
+  background-position: 10px 7px; 
+}
+
+.leis-footer-top .property {
+  text-align: center; 
+}
+
+.leis-footer-top .property .property-info {
+  padding-top: 10px; 
+}
+
+.leis-footer-top .property h2 {
+  margin: 0;
+  padding: 0 !important; 
+}
+
+.leis-footer-top .property h2 a {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  font-family: "leis-logo";
+  font-weight: normal;
+  font-size: 1rem;
+  padding: 0; 
+}
+
+.leis-footer-top .property h2 a:hover {
+  opacity: 0.8;
+  filter: alpha(opacity=80); 
+}
+
+.leis-footer-top .property h2 a.services {
+  width: 190px; 
+}
+
+.leis-footer-top .property h2 a span {
+  display: none; 
+}
+
+.leis-footer-top .property h2 a strong {
+  font-size: 17px;
+  margin-left: -7px; 
+}
+
+.leis-footer-top .property h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px; 
+}
 
 .leis-footer-top .property h4 {
-  text-transform: none; }
+  font-size: 1.1rem;
+  font-weight: 200;
+  color: white;
+  margin-bottom: 10px; 
+}
+
+.leis-footer-top .property p, .leis-footer-top .property li, .leis-footer-top .property a {
+  font-size: 13px;
+  line-height: 21px;
+  color: white; 
+}
+
+.leis-footer-top .property a {
+  font-weight: bold;
+  color: white; 
+}
+ 
+.leis-footer-top .learn-links, .leis-footer-top .support-links, .leis-footer-top .connect-links {
+  padding: 50px 0 0 0;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  background: url(../img/../img/icons/footer-top-icons.png) no-repeat center 0;
+  height: 220px;
+  margin-bottom: 30px; 
+}
+
+.leis-footer-top .learn-links ul, .leis-footer-top .support-links ul, .leis-footer-top .connect-links ul {
+  margin-left: 0px !important;
+  list-style: none; 
+}
+
+.leis-footer-top .learn-links ul li, .leis-footer-top .support-links ul li, .leis-footer-top .connect-links ul li {
+  line-height: 20px; 
+}
+
+.leis-footer-top .learn-links {
+background-position: center -325px; 
+}
+
+.leis-footer-top .support-links {
+  background-position: center -635px; 
+}
+
+.leis-footer-top .connect-links {
+  padding: 50px 20px 0;
+  background-position: center -9px; 
+}
+
+.leis-footer-top .connect-links .button {
+  font-size: 12px;
+  font-weight: normal;
+  background: rgba(0, 0, 0, 0.1);
+  color: white !important;
+  font-weight: bold;
+  text-shadow: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  border: none;
+  padding: 6px 16px; 
+}
+
+.leis-footer-top .global {
+  border-top: 1px solid rgba(255, 255, 255, 0.2); 
+}
+
+.leis-footer-top .global .footer-link-block {
+  font-weight: normal;
+  display: block;
+  margin: 30px 0 0 0; 
+}
+
+.leis-footer-top .global .footer-link-block.services {
+  background: left top no-repeat; 
+}
+
+.leis-footer-top .global .footer-link-block.foundation {
+  background: left top no-repeat; 
+}
+
+.leis-footer-top .global .footer-link-block.apps {
+  background: left top no-repeat; 
+}
+
+.leis-footer-top .global .footer-link-block.expo {
+  background: left top no-repeat; 
+}
+
+.leis-footer-top .global .footer-link-block span {
+  display: block;
+  color: white;
+  font-size: 0.75rem;
+  padding-left: 40px;
+  line-height: 18px; 
+}
+
+.leis-footer-top .global .footer-link-block span.title {
+  font-size: 1rem;
+  margin-bottom: 5px; 
+}
+
+.leis-footer-top .property h4 {
+  text-transform: none; 
+}
 
 .leis-footer-bottom {
   background: #333333;
-  padding: 24px 0 10px; }
-  .leis-footer-bottom .design-border {
+  padding: 24px 0 10px; 
+}
+
+.leis-footer-bottom .design-border {
     border-bottom: 1px solid #484848;
     padding-bottom: 5px;
-    margin-bottom: 25px; }
-  .leis-footer-bottom a.leis-logo {
+    margin-bottom: 25px; 
+}
+
+.leis-footer-bottom a.leis-logo {
     color: #858585;
     font-weight: normal;
     background: no-repeat 0 3px;
     padding: 23px 0 0 0 !important;
     font-size: 0.88889rem;
     display: inline-block;
-    width: 90px; }
-    .leis-footer-bottom a.leis-logo:hover {
+    width: 90px; 
+}
+
+.leis-footer-bottom a.leis-logo:hover {
       opacity: 0.8;
       filter: alpha(opacity=80); }
-  .leis-footer-bottom ul.leis-links {
+
+.leis-footer-bottom ul.leis-links {
     margin: 0;
     display: inline-block;
-    padding-bottom: 0px; }
-    .leis-footer-bottom ul.leis-links li {
+    padding-bottom: 0px; 
+}
+
+.leis-footer-bottom ul.leis-links li {
       display: block;
       float: left;
       margin-left: 6px;
       text-transform: uppercase;
       font-weight: 700;
-      font-size: 0.75rem; }
-      .leis-footer-bottom ul.leis-links li a {
+      font-size: 0.75rem; 
+}
+
+.leis-footer-bottom ul.leis-links li a {
         color: #666666;
-        padding: 3px 6px; }
-        .leis-footer-bottom ul.leis-links li a:hover {
-          color: #777777; }
-  .leis-footer-bottom p.copyright {
+        padding: 3px 6px; 
+}
+
+.leis-footer-bottom ul.leis-links li a:hover {
+          color: #777777; 
+}
+
+.leis-footer-bottom p.copyright {
     margin: 6px 0 0;
     font-size: 0.75rem;
-    color: #666666; }
-  .leis-footer-bottom ul.home-social {
+    color: #666666; 
+}
+
+.leis-footer-bottom ul.home-social {
     display: block;
     float: right;
-    margin-bottom: 8px; }
-    .leis-footer-bottom ul.home-social li {
-      list-style: none;
-      display: block;
-      float: left;
-      margin-left: 10px; }
-      .leis-footer-bottom ul.home-social li:first-child {
-        margin-left: 0; }
-      .leis-footer-bottom ul.home-social li a {
-        display: block;
-        height: 50px;
-        width: 50px;
-        background: no-repeat center 0; }
-        .leis-footer-bottom ul.home-social li a:hover {
+    margin-bottom: 8px; 
+}
+
+.leis-footer-bottom ul.home-social li {
+  list-style: none;
+  display: block;
+  float: left;
+  margin-left: 10px; 
+}
+
+.leis-footer-bottom ul.home-social li:first-child {
+  margin-left: 0; 
+}
+
+.leis-footer-bottom ul.home-social li a {
+  display: block;
+  height: 50px;
+  width: 50px;
+  background: no-repeat center 0; 
+}
+
+.leis-footer-bottom ul.home-social li a:hover {
           opacity: 0.8;
           filter: alpha(opacity=80); }
-        .leis-footer-bottom ul.home-social li a.twitter {
+
+.leis-footer-bottom ul.home-social li a.twitter {
           background-position: center 0; }
-        .leis-footer-bottom ul.home-social li a.facebook {
+
+.leis-footer-bottom ul.home-social li a.facebook {
           background-position: center -200px; }
-        .leis-footer-bottom ul.home-social li a.mail {
+
+.leis-footer-bottom ul.home-social li a.mail {
           background-position: center -400px; }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .leis-footer-top .property {
     padding-top: 0px; }
-    .leis-footer-top .property .learn-links, .leis-footer-top .property .support-links, .leis-footer-top .property .connect-links {
+
+  .leis-footer-top .property .learn-links, .leis-footer-top .property .support-links, .leis-footer-top .property .connect-links {
       height: 240px;
-      padding: 50px 10px 0; } }
+      padding: 50px 10px 0; } 
+}
 
 @media only screen and (max-width: 767px) {
   .leis-footer-top .property .property-info {
@@ -349,11 +442,11 @@ ul.pricing-table i { display: inline-block; margin-right: 5px; }
     padding: 80px 20px 0;
     margin: 4px 0 0 0;
     border-top: 1px dotted rgba(255, 255, 255, 0.2); }
-    .leis-footer-top .property .learn-links li a, .leis-footer-top .property .support-links li a, .leis-footer-top .property .connect-links li a {
-      font-size: 15px;
-      line-height: 2; }
-    .leis-footer-top .property .learn-links p, .leis-footer-top .property .learn-links a, .leis-footer-top .property .support-links p, .leis-footer-top .property .support-links a, .leis-footer-top .property .connect-links p, .leis-footer-top .property .connect-links a {
-      font-size: 16px; }
+  .leis-footer-top .property .learn-links li a, .leis-footer-top .property .support-links li a, .leis-footer-top .property .connect-links li a {
+    font-size: 15px;
+    line-height: 2; }
+  .leis-footer-top .property .learn-links p, .leis-footer-top .property .learn-links a, .leis-footer-top .property .support-links p, .leis-footer-top .property .support-links a, .leis-footer-top .property .connect-links p, .leis-footer-top .property .connect-links a {
+    font-size: 16px; }
   .leis-footer-top .property .learn-links {
     background-position: center -300px;
     padding-top: 76px 20px 0; }
@@ -375,19 +468,20 @@ ul.pricing-table i { display: inline-block; margin-right: 5px; }
     background-position: center 10px !important; }
   .leis-footer-bottom {
     text-align: center; }
-    .leis-footer-bottom .columns {
-      padding: 0; }
-    .leis-footer-bottom a.leis-logo {
-      display: block;
-      margin: 0 auto; }
-    .leis-footer-bottom ul.leis-links {
-      margin: 16px 0 10px; }
-    .leis-footer-bottom ul.home-social {
-      float: none;
-      margin: 0 0 20px 0;
-      text-align: center;
-      height: 44px;
-      display: inline-block; } }
+  .leis-footer-bottom .columns {
+    padding: 0; }
+  .leis-footer-bottom a.leis-logo {
+    display: block;
+    margin: 0 auto; }
+  .leis-footer-bottom ul.leis-links {
+    margin: 16px 0 10px; }
+  .leis-footer-bottom ul.home-social {
+    float: none;
+    margin: 0 0 20px 0;
+    text-align: center;
+    height: 44px;
+    display: inline-block; } 
+}
 
 /* Reformating pillars */
 @media only screen and (max-width: 767px) {
@@ -399,19 +493,19 @@ ul.pricing-table i { display: inline-block; margin-right: 5px; }
     text-align: center;
     margin: 0 !important;
     clear: both; }
-    .leis-footer-top .global .footer-link-block span {
-      padding-left: 0px; }
-    .leis-footer-top .global .footer-link-block.services {
-      border-top: 0;
-      background-position: center 15px !important; }
-    .leis-footer-top .global .footer-link-block.foundation {
-      background-position: center 15px !important; }
-    .leis-footer-top .global .footer-link-block.apps {
-      padding-top: 80px;
-      background-position: center 45px !important; }
-    .leis-footer-top .global .footer-link-block.expo {
-      padding-top: 80px;
-      background-position: center 45px !important; }
+  .leis-footer-top .global .footer-link-block span {
+    padding-left: 0px; }
+  .leis-footer-top .global .footer-link-block.services {
+    border-top: 0;
+    background-position: center 15px !important; }
+  .leis-footer-top .global .footer-link-block.foundation {
+    background-position: center 15px !important; }
+  .leis-footer-top .global .footer-link-block.apps {
+    padding-top: 80px;
+    background-position: center 45px !important; }
+  .leis-footer-top .global .footer-link-block.expo {
+    padding-top: 80px;
+    background-position: center 45px !important; }
   .leis-footer-top .property .learn-links {
     background: none;
     border: none;
@@ -442,14 +536,14 @@ ul.pricing-table i { display: inline-block; margin-right: 5px; }
     font-weight: normal;
     display: block;
     margin: 30px 0 0 0; }
-    .leis-footer-top .global .footer-link-block.services {
-      background-size: 30px; }
-    .leis-footer-top .global .footer-link-block.foundation {
-      background-size: 30px; }
-    .leis-footer-top .global .footer-link-block.apps {
-      background-size: 30px; }
-    .leis-footer-top .global .footer-link-block.expo {
-      background-size: 30px; }
+  .leis-footer-top .global .footer-link-block.services {
+    background-size: 30px; }
+  .leis-footer-top .global .footer-link-block.foundation {
+    background-size: 30px; }
+  .leis-footer-top .global .footer-link-block.apps {
+    background-size: 30px; }
+  .leis-footer-top .global .footer-link-block.expo {
+    background-size: 30px; }
   .leis-footer-bottom a.leis-logo {
     background-size: 100px 1400px; }
   .leis-footer-top .property .support-links, .leis-footer-top .property .connect-links {
@@ -457,7 +551,8 @@ ul.pricing-table i { display: inline-block; margin-right: 5px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .leis-footer-top .property .learn-links {
-    background: none; } }
+    background: none; } 
+}
 
 .leis-footer-top.bg-gray {
   background: #444; }
