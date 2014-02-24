@@ -5,7 +5,7 @@
 <head>
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="author" content="(:)-|--<SS steveseverdija.com" />
 <meta name="copyright" content="LEIS (c) 2014" />
 
@@ -21,8 +21,8 @@
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.1.1/js/vendor/modernizr.min.js"></script>
 </head>
-<body>
 
+<body>
 
 <!-- Navigation -->
 <div class="contain-to-grid sticky"> 
@@ -84,6 +84,12 @@ LEIS
 
 <h4 class="text-center"> & </h4>
 <br>
+
+
+<h2 class="text-center"><a href="http://commons.wikimedia.org/wiki/File:CITIB-LOEWE.jpg"></a></h2>
+<h2 class="text-center"><a href="http://commons.wikimedia.org/wiki/File:CITIB-projektor.jpg"></a></h2>
+
+
 
 <div class="row">
 <div class="large-6 medium-6 columns">
@@ -285,9 +291,9 @@ LEIS
 <div class="medium-8 medium-8 pull-4 columns">
 <br><br>
 <ul class="leis-links">
-<li><a href="en-home.html" target="_blank">Home</a></li>
-<li><a href="en-services.html" target="_blank">Services</a></li>
-<li><a href="en-store.html" target="_blank">Store</a></li>
+<li><a href="fr-accueil.html">Accueil</a></li>
+<li><a href="fr-services.html">Services</a></li>
+<li><a href="fr-boutique.html">Boutique</a></li>
 </ul>
 <p class="copyright">&copy; 2014 LEIS</p>
 </div>          
@@ -309,16 +315,8 @@ $(document).foundation();
 
 var doc = document.documentElement;
 doc.setAttribute('data-useragent', navigator.userAgent);
-
-$(window).scroll(function(e){
-  parallax();
-});
-
-function parallax(){
-  var scrolled = $(window).scrollTop();
-  $('#mobley-header').css('background-position','center ' + -(scrolled*0.35)+'px');
-}
 </script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
 </body>
 </html>
