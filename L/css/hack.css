@@ -134,6 +134,10 @@ header, h1 {
 	font-family: 'Maven Pro', sans-serif;
 }
 
+.panel {
+	background-color: #999;
+}
+
 #PanelHeader {
 	font-weight: bold;
 }
