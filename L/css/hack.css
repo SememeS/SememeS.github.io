@@ -134,6 +134,9 @@ header, h1 {
 	font-family: 'Maven Pro', sans-serif;
 }
 
+#PanelHeader {
+	font-weight: bold;
+}
 
 .fb-list {
 	margin-top: -3px;
