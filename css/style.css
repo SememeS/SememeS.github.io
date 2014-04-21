@@ -85,17 +85,17 @@ h3, h4, h5, h6 {
 	color: #eee;
 }
 
-.front-links-1 {
+.front-links-1 li a {
 	text-decoration: none;
 	color: #00bfff; 
 }
 
-.front-links-2 {
+.front-links-2 li a {
 	text-decoration: none;
 	color: #666; 
 }
 
-.front-links li a:hover, .front-links li a:focus, .front-links li a:active {
+.front-links-1 li a:hover, .front-links-1 li a:focus, .front-links-1 li a:active {
 	color: #fff;
 	text-decoration: none;
 }
