@@ -1,0 +1,109 @@
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+/* 
+	le Stylesheet
+*/
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+
+
+*{
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+:-moz-any-link:focus {
+	outline: none;
+}
+
+:-moz-any-link:active {
+	outline: none;
+}
+
+::-moz-selection {
+  background: #666;
+	color: #fff;
+}
+
+::selection {
+	background: #666;
+	color: #fff;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track { 
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(30,30,30,0.8); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(30,30,30,0.4); 
+}
+
+
+body {
+	font-family: 'VT323', Arial, serif;
+	color: #999;
+/* IE */ 
+	background-image: -ms-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
+/* Mozilla Firefox */ 
+	background-image: -moz-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
+/* Opera */ 
+	background-image: -o-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
+/* Webkit (Safari/Chrome 10) */ 
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #333333), color-stop(1, #111111));
+/* Webkit (Chrome 11+) */ 
+	background-image: -webkit-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
+/* W3C Markup, IE10 Release Preview */ 
+	background-image: radial-gradient(circle farthest-corner at center, #333333 0%, #111111 100%);
+	background-size: 100% 1000px;
+}
+
+/*
+li {
+	text-shadow: 0px 3px 1px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+*/
+
+h1, h2 {
+	font-family: 'Press Start 2P', cursive, Arial, serif;
+	text-shadow: 0px 3px 1px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+	color: #fff;
+}
+h3, h4, h5, h6 {
+	font-family: 'Press Start 2P', cursive, Arial, serif;
+	color: #eee;
+}
+
+.front-links-1 {
+	text-decoration: none;
+	color: #00bfff; 
+}
+
+.front-links-2 {
+	text-decoration: none;
+	color: #666; 
+}
+
+.front-links li a:hover, .front-links li a:focus, .front-links li a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+///////////////////////////////////////////////
+///////////////////////////////////////////////
+/* 
+	le End. 
+*/
+///////////////////////////////////////////////
+///////////////////////////////////////////////

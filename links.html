@@ -1,20 +1,23 @@
-<!DOCTYPE HTML>
-<html lang="en">
-  
+<!DOCTYPE html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta name="description" content="(:)-|--<SS">
-<meta name="author" content="Steve Severdija">
 
-<link href="//netdna.bootstrapcdn.com/bootswatch/3.1.0/cyborg/bootstrap.min.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="author" content="Steve Severdija" />
+
+<meta name="description" content="Game Development & Design, Drawing / 2D Art, Web" />
+
+<title>(:)-|--<SS</title>
+
+<link href='http://fonts.googleapis.com/css?family=Press+Start+2P|VT323' rel='stylesheet' type='text/css'>
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<link href="css/styleHACK.css" media="screen" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/normalize.min.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/foundation.min.css" />
 
-<title>Links</title>
 
-<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/vendor/modernizr.min.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -25,407 +28,60 @@
   ga('send', 'pageview');
 
 </script>
-
-<script language=JavaScript> 
-function clickIE() {
-if (document.all) {
-return false;
-}
-} 
-function clickNS(e) {
-if (document.layers||(document.getElementById&&!document.all)) { 
-if (e.which==2||e.which==3) {
-return false;
-}
-}
-} 
-if (document.layers) {
-document.captureEvents(Event.MOUSEDOWN);
-document.onmousedown=clickNS;
-} 
-else{
-document.onmouseup=clickNS;
-document.oncontextmenu=clickIE;
-} 
-document.oncontextmenu=new Function("return false") 
-</script>
 </head>
- 
- 
+
 <body>
 
-<div class="navbar navbar-default navbar-fixed-top bs-docs-nav" role="banner">
-<div class="container" id="contNavbar">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-<i class="icon-dropmenu"></i>
-</button>
-</div>
-<div class="collapse navbar-collapse">
-<ul class="nav navbar-nav">
-<li class="divider"></li>
-<li><a href="index"><i class="fa fa-male"></i></a></li>
-<li class="divider"></li>
-<!--<li><a href="assets"><i class=""></i> &nbsp;Unity Assets</a></li>
-<li class="divider"></li>
-<li><a href="portfolio"><i class=""></i> &nbsp;Portfolio</a></li>
-<li class="divider"></li>-->
-<li><a href="links"><i class="fa fa-heart"></i></a></li>
-<li class="divider"></li>
+<div class="off-canvas-wrap" data-offcanvas>
+<div class="inner-wrap">
+
+<a class="left-off-canvas-toggle sticky" href="#" >Menu</a>
+
+<!-- Off Canvas Menu -->
+<aside class="left-off-canvas-menu">
+<!-- whatever you want goes here -->
+<ul>
+<li><a href="#">Item 1</a></li>
 </ul>
-</div><!--/.nav-collapse -->
-</div>
-</div>
+</aside>
 
-
-<div id="BGlinks">
-<!-- Docs page layout -->
-<div class="bs-header" id="content">
-<div class="container" id="cont1">
-<h1><i class="fa fa-heart"></i>&nbsp;Links</h1>
-</div>
-</div>
-
-
-
-<div class="container bs-docs-container" id="cont2">
+<!-- main content goes here -->
 <div class="row">
-<div class="col-md-3">
-<div data-spy="affix" data-offset-top="100" class="bs-sidebar hidden-print" role="complementary">
-<ul class="nav bs-sidenav">            
-<li>
-<a href="#A">- Unity</a>
-<ul class="nav">
-<li><a href="#A-1">Unity Documentation</a></li>
-<li><a href="#A-2">Unify Community</a></li>
-<li><a href="#A-3">Unity Cookie</a></li>
+<div class="large-3 medium-4 columns"><!-- 1 -->
+<div class="hide-for-small">
+<div class="sidebar">
+
+<ul class="side-nav">
+<li class="heading">Game Dev.</li>
+<li><a href="#">Link 1</a></li>
+<li><a href="#">Link 2</a></li>
+<li class="divider"></li>
+<li class="heading">Game Dev.</li>
+<li><a href="#">Link 3</a></li>
+<li><a href="#">Link 4</a></li>
 </ul>
-</li>
-<li>
-<a href="#B">- Blender</a>
-<ul class="nav">
-<li><a href="#B-1">Blender Wiki</a></li>
-<li><a href="#B-2">Blender Cookie</a></li>
-</ul>
-</li>
-<li>
-<a href="#C">- 3D</a>
-<ul class="nav">
-<li><a href="#C-1">Make Human</a></li>
-</ul>
-</li>
-<li>
-<a href="#D">- Textures</a>
-<ul class="nav">
-<li><a href="#D-1">CG Textures</a></li>
-<li><a href="#D-2">Mayang</a></li>
-</ul>
-</li>
-<li>
-<a href="#E">- Mobile</a>
-<ul class="nav">
-<li><a href="#E-1">Android Developer</a></li>
-</ul>
-</li>
-<li>
-<a href="#F">- WEB</a>
-<ul class="nav">
-<li><a href="#F-1">HSL Picker</a></li>
-<li><a href="#F-2">Bootstrap</a></li>
-<li><a href="#F-3">ZURB</a></li>
-<li><a href="#F-4">CDNs</a></li>
-</ul>
-</li>
-<li>
-<a href="#G">- Entertainment</a>
-<ul class="nav">
-<li><a href="#G-1">The Gamers</a></li>
-<li><a href="#G-2">Journey Quest</a></li>
-<li><a href="#G-3">Standard Action</a></li>
-</ul>
-</li>
-<li>
-<a href="#H">- Comics</a>
-<ul class="nav">
-<li><a href="#H-1">OOTS !</a></li>
-</ul>
-</li>          
-</ul>
+</div>
+</div>
+</div><!-- END 1 -->
+
+<div class="large-9 medium-8 columns"> <!-- 2 -->
+</div><!-- END 2 -->
+
+<!-- close the off-canvas menu -->
+<a class="exit-off-canvas"></a>
 
 </div>
 </div>
 
 
-<div class="col-md-9" id="linkscol" role="main">
 
-<!-- 1
-================================================== --> 
-<div class="bs-docs-section">
-<div class="page-header">
-<h1 id="A">Unity:</h1><a class="pull-right" href="#"><i class="fa fa-chevron-circle-up"></i></a>
-</div>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/vendor/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation.min.js"></script>
+<script>
+$(document).foundation();
 
-<a href="http://unity3d.com/learn/documentation" target="_blank">
-<img class="img-responsive" src="https://lh3.googleusercontent.com/-NUwRHpOXMpE/UkvEmfQBaII/AAAAAAAABg0/FU4adPOJXcc/w748-h191-no/banner.jpg" clas="thumbnail" id="A-1"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Unity Documentation</strong></a>
-<p>Unity's main documentation; User Manual, Component &amp; Scripting references.</p>
-<br>
-<br>
-<hr>
-
-
-<a href="http://www.unifycommunity.com/" target="_blank">
-<img class="img-responsive" src="https://lh5.googleusercontent.com/-0XNgRXzcKvY/UkvEnfkhF5I/AAAAAAAABhQ/84eT1fY_74Q/w748-h191-no/unify.png" id="A-2"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Unify Community</strong></a>
-<p>Main hub for; Wiki, Merch, Tutorials, Unicade & Unitree.</p>
-<br>
-<br>
-<hr>
-
-
-<a href="http://cgcookie.com/unity/" target="_blank">
-<img class="img-responsive" src="https://lh3.googleusercontent.com/--anxhYmpoks/UkvEoXAxBtI/AAAAAAAABhk/XpIKWICCkk0/w748-h191-no/unity_cookie.png" id="A-3"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Unity Cookie</strong></a>
-<p>CG Cookie's tutorials and resources for Unity.</p>
-<br>
-<br>
-<hr>
-
-</div>
-
-
-<!-- 2
-================================================== --> 
-<div class="bs-docs-section">
-<div class="page-header">
-<h1 id="B">Blender:</h1><a class="pull-right" href="#"><i class="fa fa-chevron-circle-up"></i></a>
-</div>
-
-<a href="http://wiki.blender.org/" target="_blank">
-<img class="img-responsive" src="https://lh6.googleusercontent.com/-rmgPbdnqzA8/UkvNQcXyAhI/AAAAAAAABjU/9Gh311cXjSk/w748-h191-no/blenderwiki.png" id="B-1"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Blender Wiki</strong></a>
-<p>Official Blender documentation.</p>
-<br>
-<br>
-<hr>
-
-<a href="http://cgcookie.com/blender/" target="_blank">
-<img class="img-responsive" src="https://lh3.googleusercontent.com/-HwJsQRgp510/UkvEmWyl_ZI/AAAAAAAABhA/zgo2yOP27qA/w748-h191-no/blender_cookie.png" id="B-2"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Blender Cookie</strong></a>
-<p>CG Cookie's tutorials and resources for Blender.</p>
-<br>
-<br>
-<hr>
-
-</div>
-
-
-<!-- 3
-================================================== --> 
-<div class="bs-docs-section">
-<div class="page-header">
-<h1 id="C">3d:</h1><a class="pull-right" href="#"><i class="fa fa-chevron-circle-up"></i></a>
-</div>
-
-<a href="http://www.makehuman.org/" target="_blank">
-<img class="img-responsive" src="https://lh3.googleusercontent.com/-pDqQKnRVZvk/UkvNplxIs_I/AAAAAAAABj4/v6BeYCVjvU4/w748-h191-no/makehuman.png" id="C-1"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>MakeHuman</strong></a>
-<p>Simply amazing software and a very generous team. Spread the word on MakeHuman.</p>
-<br>
-<br>
-<hr>
-
-
-</div>
-
-
-<!-- 4
-================================================== --> 
-<div class="bs-docs-section">
-<div class="page-header">
-<h1 id="D">Textures:</h1><a class="pull-right" href="#"><i class="fa fa-chevron-circle-up"></i></a>
-</div>
-
-<a href="http://cgtextures.com/" target="_blank">
-<img class="img-responsive" src="https://lh4.googleusercontent.com/-4CzU-OnmvXc/UkvJcnRl6RI/AAAAAAAABiQ/hgnx6guVc6Q/w748-h191-no/cgtextures.png" id="D-1"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>CG Textures</strong></a>
-<br>
-<br>
-<hr>
-
-<a href="http://www.mayang.com/textures/" target="_blank">
-<img class="img-responsive" src="https://lh6.googleusercontent.com/-NgbqJRZX1Yo/UkvEnBMlNxI/AAAAAAAABhU/bUwajHmHz94/w748-h191-no/mayang.png" id="D-2"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Mayang Textures</strong></a>
-<br>
-<br>
-<hr>
-
-
-</div>
-
-
-
-<!-- 5
-================================================== --> 
-<div class="bs-docs-section">
-<div class="page-header">
-<h1 id="E">Mobile:</h1><a class="pull-right" href="#"><i class="fa fa-chevron-circle-up"></i></a>
-</div>
-
-<a href="http://developer.android.com/index.html" target="_blank">
-<img class="img-responsive" src="https://lh5.googleusercontent.com/-ZqptCg6GrMo/UkvShjXSM5I/AAAAAAAABko/ES3zz0Zkmgo/w748-h191-no/android.png" id="E-1"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Android Developer</strong></a>
-<p>Official Android development/distribution learning zone.</p>
-<br>
-<br>
-<hr>
-
-
-</div>
-
-
-<!-- 6
-================================================== --> 
-<div class="bs-docs-section">
-<div class="page-header">
-<h1 id="F">WEB:</h1><a class="pull-right" href="#"><i class="fa fa-chevron-circle-up"></i></a>
-</div>
-
-<a href="http://hslpicker.com/" target="_blank">
-<img class="img-responsive" src="https://lh6.googleusercontent.com/-hj9vkgHRbbE/UkvTUw0MEKI/AAAAAAAABlI/gqeeal30OHI/w748-h191-no/hslpicker.png" id="F-1"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>HSL Picker</strong></a>
-<p>Too useful and quick to use. By Brandon Mathis.</p>
-<br>
-<br>
-<hr>
-
-
-<a href="http://getbootstrap.com/" target="_blank">
-<img class="img-responsive" src="https://lh5.googleusercontent.com/-VX2G4wNlIrg/UkvEmdR3AAI/AAAAAAAABg8/C4qc6fk9rA4/w748-h191-no/bootstrap.png" id="F-2"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Bootstrap</strong></a>
-<p>I mainly use Bootstrap. I used Bootstrap to build this website :)</p>
-<br>
-<a href="http://www.bootstrapcdn.com/" target="_blank"><i class="icon-linkalt"></i>&nbsp; <strong>Bootstrap CDNs</a>
-<br>
-<a href="http://code.jquery.com/" target="_blank"><i class="icon-linkalt"></i>&nbsp; <strong>jQuery CDNs</a>
-<br>
-<br>
-<hr>
-
-
-<a href="http://foundation.zurb.com/" target="_blank">
-<img class="img-responsive" src="https://lh6.googleusercontent.com/-ALImdJSoKgA/UkvEoZ2M3nI/AAAAAAAABho/TMofeVIHMs4/w748-h191-no/zurb.png" id="F-3"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>ZURB Foundation</strong></a>
-<p>A great alternative to Bootstrap.</p>
-<br>
-<br>
-<hr>
-
-
-
-</div>
-
-
-<!-- 7
-================================================== --> 
-<div class="bs-docs-section">
-<div class="page-header">
-<h1 id="G">Entertainment:</h1><a class="pull-right" href="#"><i class="fa fa-chevron-circle-up"></i></a>
-</div>
-
-<a href="https://www.youtube.com/playlist?list=PLC94D9A19FF391865"  target="_blank">
-<img class="img-responsive" src="https://lh3.googleusercontent.com/-khWRSx4lPcE/Ukve7eHFpLI/AAAAAAAABl4/Z9SaI78Icfo/w748-h191-no/gamers.png" id="G-1"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>The Gamers</strong></a>
-<br>
-<br>
-<br>
-<hr>
-<a href="https://www.youtube.com/playlist?list=PLB600313D4723E21F"  target="_blank">
-<img class="img-responsive" src="https://lh4.googleusercontent.com/-mm-SGpRVa8I/Ukve7QMGvdI/AAAAAAAABl8/1Aw945GMWEY/w748-h191-no/jq.png" id="G-2"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Journey Quest</strong></a>
-<br>
-<br>
-<br>
-<hr>
-<a href="http://standardaction.zombieorpheus.com/watch/"  target="_blank">
-<img class="img-responsive" src="https://lh4.googleusercontent.com/-Xaws8pFUjrM/UkvlOHWjCcI/AAAAAAAABmg/4By4lJLnCTs/w748-h191-no/standardaction.png" id="G-3"></img>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Standard Action</strong></a>
-<br>
-<br>
-<br>
-<hr>
-<a href="http://zombieorpheus.com/" target="_blank"><i class="icon-linkalt"></i>&nbsp; Zombie Orpheus Entertainment</a>
-<br>
-<a href="http://deadgentlemen.com/" target="_blank"><i class="icon-linkalt"></i>&nbsp; Dead Gentlemen</a>
-<br>
-<hr>
-
-</div>
-
-<!-- 8
-================================================== --> 
-<div class="bs-docs-section">
-<div class="page-header">
-<h1 id="H">Comics:</h1><a class="pull-right" href="#"><i class="fa fa-chevron-circle-upp"></i></a>
-</div>
-
-<a href="http://www.giantitp.com/comics/oots0001.html"  target="_blank">
-<img class="img-responsive" src="https://lh4.googleusercontent.com/-s6FREP8BUg0/UkvEn-YoDfI/AAAAAAAABhY/VD9Mc93DNvY/w748-h191-no/oots.png" id="H-1"></img>
-<br>
-<br>
-<i class="icon-linkalt"></i>&nbsp; <strong>Order of the Stick</strong></a>
-<p>One of my favorite webcomics. By Rich Burlew.</p>
-<br>
-<br>
-<hr>
-
-</div>
-
-
-
-</div>
-</div>
-</div>
-
-
-
-<footer class="container">
-<ul class="bs-masthead-links" id="UpFoot">
-<hr>
-<li>
-<a href="#">UP<i class="fa fa-chevron-circle-up"></i></a>
-</li>
-</ul>
-</footer>
-
-
-</div><!--BGweapons END -->
-
-
-
-
-
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-<script type="text/javascript">
-	$('body').scrollspy({ target: '.bs-sidenav' }); 
+var doc = document.documentElement;
+doc.setAttribute('data-useragent', navigator.userAgent);
 </script>
-
-		
 </body>
-
 </html>
