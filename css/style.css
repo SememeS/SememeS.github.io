@@ -85,6 +85,10 @@ h3, h4, h5, h6 {
 	color: #eee;
 }
 
+hr {
+	color: #222;
+}
+
 .front-links-1 li a {
 	text-decoration: none;
 	color: #00bfff; 
