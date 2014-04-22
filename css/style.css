@@ -50,7 +50,7 @@
 
 
 body {
-	font-family: 'VT323', sans-serif;
+	font-family: vt323, sans-serif;
 	color: #999;
 /* IE */ 
 	background-image: -ms-radial-gradient(center, circle farthest-corner, #333333 0%, #111111 100%);
