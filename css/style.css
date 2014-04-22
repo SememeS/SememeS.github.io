@@ -105,17 +105,17 @@ hr {
 }	
 	
 .menu1:hover, .menu1:focus, .menu1:active {
-	color: #fff;
+	color: red;
 	text-decoration: none;
 }
 
 .menu2:hover, .menu2:focus, .menu2:active {
-	color: #fff;
+	color: green;
 	text-decoration: none;
 }
 
 .menu3:hover, .menu3:focus, .menu3:active {
-	color: #fff;
+	color: blue;
 	text-decoration: none;
 }
 
