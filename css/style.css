@@ -94,6 +94,13 @@ hr {
 	color: #00bfff; 
 }
 
+.lemenu li {
+	font-size: 20px;
+	color: #222;
+	text-shadow: 0px 3px 1px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=3);
+}
+
 .front-links-2 li a {
 	text-decoration: none;
 	color: #666; 
