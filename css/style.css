@@ -50,6 +50,7 @@
 
 
 body {
+	position: relative;
 	font-family: vt323, sans-serif;
 	color: #999;
 /* IE */ 
