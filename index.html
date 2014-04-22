@@ -47,9 +47,9 @@
 
 <div class="row">
 <div class="large-12 columns">
-<h2>Steve Severdija 
+<h4>Steve Severdija 
 <a href="#" data-reveal-id="myModal" data-reveal>?</a>
-</h2>
+</h4>
 </div>
 </div>
 
@@ -93,8 +93,8 @@ $(document).foundation();
 var doc = document.documentElement;
 doc.setAttribute('data-useragent', navigator.userAgent);
 
-$('#myModal').foundation('reveal', 'open');
-$('#myModal').foundation('reveal', 'close');
+$('a.reveal-link').trigger('click');
+$('a.close-reveal-modal').trigger('click');
 </script>
 </body>
 </html>
