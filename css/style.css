@@ -100,12 +100,12 @@ hr {
 }
 
 .lemenu li a {
-	font-size: 6em;
-	color: #222;
+	font-size: 5em;
+	color: #444;
 }	
 	
 .menu1:hover, .menu1:focus, .menu1:active {
-	color: red;
+	color: blue;
 	text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ hr {
 }
 
 .menu3:hover, .menu3:focus, .menu3:active {
-	color: blue;
+	color: red;
 	text-decoration: none;
 }
 
