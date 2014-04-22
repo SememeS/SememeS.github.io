@@ -86,7 +86,7 @@ h3, h4, h5, h6 {
 }
 
 hr {
-	background: #222;
+	border: #222;
 }
 
 .front-links-1 li a {
