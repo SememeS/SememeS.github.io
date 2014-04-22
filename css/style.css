@@ -88,8 +88,9 @@ hr {
 	border-color: #222;
 }
 
-.lemenu li {
+.lemenu {
 	text-align: center;
+	margin-top: -10px;
 }
 
 .lemenu li a {
