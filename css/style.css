@@ -79,19 +79,24 @@ hr {
 	border-color: #222;
 }
 
+.aside {
+	background-color: #222;
+	font-family: vt323, sans-serif;
+}
+
 .divider {
 	border-color: #222;
 }
 
-.lemenu {
+.lemenu li {
 	text-align: center;
-	text-shadow: 0px 3px 0px #000000;
-	filter: dropshadow(color=#000000, offx=0, offy=3);
 }
 
 .lemenu li a {
 	font-size: 3em;
-	color: #333;
+	color: #444;
+	text-shadow: 0px 3px 0px #000000;
+	filter: dropshadow(color=#000000, offx=0, offy=3);
 }	
 	
 .menu1:hover, .menu1:focus, .menu1:active {
