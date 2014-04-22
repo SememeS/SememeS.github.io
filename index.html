@@ -53,12 +53,6 @@
 
 <div class="space"></div>
 
-<div id="myModal" class="reveal-modal" data-reveal>
-<img src="https://lh4.googleusercontent.com/-xFZgDfjDLKU/UfmQ2aZZ4-I/AAAAAAAABFA/D2blguojU0M/w208-h207-p-no/2013-07-31+18-07-08.739.jpg"></img>
-<p class="lead">Hello!</p>
-<a class="close-reveal-modal">&#215;</a>
-</div>
-
 <footer>
 <div class="row">
 <div class="large-12 columns">
@@ -84,15 +78,33 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/vendor/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation/foundation.reveal.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation/foundation.magellan.min.js"></script>
+
 <script>
 $(document).foundation();
 
 var doc = document.documentElement;
 doc.setAttribute('data-useragent', navigator.userAgent);
 
-$('#myModal').foundation('reveal', 'open');
-$('#myModal').foundation('reveal', 'close');
+{
+  animation: 'fadeAndPop',
+  animation_speed: 250,
+  close_on_background_click: true,
+  dismiss_modal_class: 'close-reveal-modal',
+  bg_class: 'reveal-modal-bg',
+  bg : $('.reveal-modal-bg'),
+  css : {
+    open : {
+      'opacity': 0,
+      'visibility': 'visible',
+      'display' : 'block'
+    },
+    close : {
+      'opacity': 1,
+      'visibility': 'hidden',
+      'display': 'none'
+    }
+  }
+}
 </script>
 </body>
 </html>
