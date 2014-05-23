@@ -144,13 +144,9 @@ hr {
 }
 
 .space {
-	height: 100px;
+	height: 80px;
 }
 
-#tools {
-    font-size: 13px;
-    color: #222;
-}
 
 @media screen and (max-width: 768px) {
 		.OffMenu {
