@@ -69,7 +69,8 @@ body {
 }
 
 h1 {
-	font-size: 60px;
+	font-size: 81px;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -80,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h5 {
 	font-family: 'Press Start 2P';
-    color: #555;
+    color: #444;
 }
 
 hr {
