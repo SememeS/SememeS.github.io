@@ -94,31 +94,8 @@ hr {
 	border-color: #222;
 }
 
-.aside {
-	background-color: #222;
-	font-family: 'vt323', sans-serif;
-}
-
 .divider {
 	border-color: #222;
-}
-
-.lemenu {
-	margin-top: -13px;
-	letter-spacing:-20px;
-	line-height: 50%;
-}
-
-.lemenu li a {
-	font-size: 3em;
-	color: #444;
-	text-shadow: 0px 3px 0px #000000;
-	filter: dropshadow(color=#000000, offx=0, offy=3);
-}	
-	
-.menu1:hover, .menu1:focus, .menu1:active {
-	color: #00bfff; 
-	text-decoration: none;
 }
 
 .front-links-1 li a {
@@ -140,25 +117,15 @@ hr {
 .fourOfour {
 	font-family: 'Press Start 2P', cursive;
 	color: #fff;
-	font-size: 30px;
+	font-size: 60px;
 }
 
-.BG {
-	padding-left: 20px;
-	padding-right: 20px;
+.button {
+    color: red;
 }
 
 .space {
 	height: 160px;
-}
-
-@media screen and (max-width: 768px) {
-		.OffMenu {
-			font-size: 1.5em;
-			color: #999;
-			text-shadow: 0px 3px 0px #000000;
-			filter: dropshadow(color=#000000, offx=0, offy=3);
-		}
 }
 
 #blend {
