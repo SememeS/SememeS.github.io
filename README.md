@@ -1,4 +1,4 @@
-SememeS.github.io
+steveseverdija.com
 =================
 
 My personal website. Hosted here on Github. Thank you Github :)
