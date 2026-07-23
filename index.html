@@ -1,72 +1,107 @@
 <!DOCTYPE html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <!-- FontAwesome for GitHub and Mail icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #0c0c0c; /* Nearly black */
+            --kanji-color: rgba(255, 255, 255, 0.04); /* Very low opacity white */
+            --line-color: rgba(255, 255, 255, 0.15); /* Thin, low opacity white line */
+            --icon-color: rgba(255, 255, 255, 0.6);
+            --icon-hover: #ffffff;
+        }
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="author" content="Steve Severdija" />
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden; /* Prevents scrollbars from appearing */
+        }
 
-<meta name="description" content="" />
+        /* Center section holding the kanji */
+        .card-center {
+            flex-grow: 1;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-<title>(:)-|--<§</title>
+        /* Dragon Kanji Styling */
+        .kanji-watermark {
+            font-size: 45vmin; /* Dynamically scales with the screen size */
+            color: var(--kanji-color);
+            user-select: none; /* Prevents accidental highlighting */
+            cursor: default;
+            /* Using standard serif fonts that render kanji elegantly */
+            font-family: "Yu Mincho", "MS Mincho", "SimSun", serif; 
+        }
 
-<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/css/normalize.min.css" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/css/foundation.min.css" />
-<link rel="stylesheet" href="css/style.css" />
+        /* Bottom Footer Area */
+        .card-footer {
+            width: 100%;
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10;
+        }
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/vendor/modernizr.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        /* The Divider Line */
+        .divider {
+            width: 80%;
+            max-width: 500px;
+            height: 1px;
+            background-color: var(--line-color);
+            margin-bottom: 30px;
+        }
 
-  ga('create', 'UA-44521237-1', 'steveseverdija.com');
-  ga('send', 'pageview');
+        /* Icon Container */
+        .social-links {
+            display: flex;
+            gap: 50px;
+        }
 
-</script>
+        /* Icon Styling and Animation */
+        .social-links a {
+            color: var(--icon-color);
+            font-size: 28px;
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--icon-hover);
+            transform: translateY(-4px); /* Slight lift effect on hover */
+        }
+    </style>
 </head>
-
 <body>
 
-<div class="row">
-<div class="large-12 columns">
-<br>
-<br>
-<h1> § </h1>
-<br>
-<br>
-</div>
-</div>
-<div class="space"></div>
+    <main class="card-center">
+        <!-- Traditional Kanji for Dragon -->
+        <div class="kanji-watermark">龍</div>
+    </main>
 
-<footer>
-<div class="row">
-<div class="large-12 columns">
-<a id="blend" href="https://www.blender.org/" target="_blank"><h4>❤ <img src="https://lh4.googleusercontent.com/-UnIkrTCue5w/U41Z4phLbFI/AAAAAAAAB8o/4Znh5QsQD0A/w74-h72-no/blendico.png" width="50px"></h4></a>
-<ul class="inline-list front-links-1">
-<li><a href="mailto:steve.severdija@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-<li><a href="https://github.com/SememeS" target="_blank"><i class="fa fa-github-square"></i></a></li>
-</ul>
-<hr>
-<div class="large-12 columns">
-<ul class="inline-list front-links-2">
-<li><a href="https://pages.github.com/" target="_blank"><i class="fa fa-github-alt"></i> &nbsp;Hosted on Github</a></li>
-</ul>
-</div>
-</div>
-</div>
-</footer>
+    <footer class="card-footer">
+        <div class="divider"></div>
+        <div class="social-links">
+            <a href="https://github.com/SememeS" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:steve.severdija@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/vendor/jquery.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.2.3/js/foundation/foundation.min.js"></script>
-
-<script>
-$(document).foundation();
-</script>
 </body>
 </html>
