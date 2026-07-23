@@ -9,7 +9,8 @@
     <style>
         :root {
             --bg-color: #0c0c0c; /* Nearly black */
-            --kanji-color: rgba(255, 255, 255, 0.04); /* Very low opacity white - Used for opacity only on QR */
+            --watermark-color-filter: invert(1); /* Inverts black QR to white */
+            --watermark-opacity: 0.04; /* Very low opacity to match previous kanji */
             --line-color: rgba(255, 255, 255, 0.15); /* Thin, low opacity white line */
             --icon-color: rgba(255, 255, 255, 0.6);
             --icon-hover: #ffffff;
@@ -30,17 +31,23 @@
             line-height: 1.6;
         }
 
-        /* Fixed background Watermark element */
-        .watermark-element {
+        /* Fixed background QR Watermark Styling */
+        .qr-watermark {
             position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            /* Using standard serif fonts that render kanji elegantly */
             z-index: 0; /* Keeps it behind the text */
-            pointer-events: none; /* Prevents it from interfering with text selection */
-            /* Match the original opacity of the kanji text color */
-            opacity: 0.04;
+            pointer-events: none; /* Prevents interaction */
+            user-select: none;
+            /* Scale QR dynamically with screen size, but retain aspect ratio */
+            width: 80vmin; 
+            height: 80vmin;
+            max-width: 500px;
+            max-height: 500px;
+            /* Styling to match the old Kanji color aesthetic */
+            filter: var(--watermark-color-filter);
+            opacity: var(--watermark-opacity);
         }
 
         /* Main Content Area */
@@ -114,8 +121,8 @@
 </head>
 <body>
 
-    <!-- Watermark Image in the background, opacity set via CSS to match original color -->
-    <img class="watermark-element" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://steveseverdija.com&format=svg&color=ffffff" alt="Steve Severdija QR Code" width="250" height="250" />
+    <!-- Fixed Background QR Code Watermark -->
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://steveseverdija.com&format=svg" alt="Steve Severdija QR Code" width="250" height="250" class="qr-watermark" />
 
     <main class="content-container">
         <h1>Privacy Policy</h1>
