@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,6 @@
     <style>
         :root {
             --bg-color: #0c0c0c; /* Nearly black */
-            --kanji-color: rgba(255, 255, 255, 0.04); /* Very low opacity white */
             --line-color: rgba(255, 255, 255, 0.15); /* Thin, low opacity white line */
             --icon-color: rgba(255, 255, 255, 0.6);
             --icon-hover: #ffffff;
@@ -26,7 +26,7 @@
             overflow: hidden; /* Prevents scrollbars from appearing */
         }
 
-        /* Center section holding the kanji */
+        /* Center section holding the QR Code */
         .card-center {
             flex-grow: 1;
             position: relative;
@@ -35,14 +35,22 @@
             align-items: center;
         }
 
-        /* Dragon Kanji Styling */
-        .kanji-watermark {
-            font-size: 45vmin; /* Dynamically scales with the screen size */
-            color: var(--kanji-color);
+        /* QR Code Watermark Styling */
+        .qr-watermark {
+            /* The provided API generates a black QR on a white background */
+            /* invert(1) turns it into a white QR on a black background */
+            filter: invert(1); 
+            /* screen blend mode makes the black background completely transparent */
+            mix-blend-mode: screen; 
+            /* Matches the 4% white opacity of the previous kanji */
+            opacity: 0.04; 
+            
             user-select: none; /* Prevents accidental highlighting */
-            cursor: default;
-            /* Using standard serif fonts that render kanji elegantly */
-            font-family: "Yu Mincho", "MS Mincho", "SimSun", serif; 
+            pointer-events: none; /* Prevents dragging the image */
+            
+            /* Ensures it stays responsive on very small screens */
+            max-width: 80vw;
+            height: auto;
         }
 
         /* Bottom Footer Area */
@@ -87,8 +95,8 @@
 <body>
 
     <main class="card-center">
-        <!-- Traditional Kanji for Dragon -->
-        <div class="kanji-watermark">龍</div>
+        <!-- Transparent, low-opacity QR Code -->
+        <img class="qr-watermark" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://steveseverdija.com&format=svg" alt="Steve Severdija QR Code" width="250" height="250" />
     </main>
 
     <footer class="card-footer">
