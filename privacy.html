@@ -9,7 +9,7 @@
     <style>
         :root {
             --bg-color: #0c0c0c; /* Nearly black */
-            --kanji-color: rgba(255, 255, 255, 0.04); /* Very low opacity white */
+            --kanji-color: rgba(255, 255, 255, 0.04); /* Very low opacity white - Used for opacity only on QR */
             --line-color: rgba(255, 255, 255, 0.15); /* Thin, low opacity white line */
             --icon-color: rgba(255, 255, 255, 0.6);
             --icon-hover: #ffffff;
@@ -30,19 +30,17 @@
             line-height: 1.6;
         }
 
-        /* Fixed background Kanji Watermark */
-        .kanji-watermark {
+        /* Fixed background Watermark element */
+        .watermark-element {
             position: fixed;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            font-size: 60vmin; 
-            color: var(--kanji-color);
-            user-select: none; 
-            cursor: default;
-            font-family: "Yu Mincho", "MS Mincho", "SimSun", serif;
+            /* Using standard serif fonts that render kanji elegantly */
             z-index: 0; /* Keeps it behind the text */
             pointer-events: none; /* Prevents it from interfering with text selection */
+            /* Match the original opacity of the kanji text color */
+            opacity: 0.04;
         }
 
         /* Main Content Area */
@@ -116,8 +114,8 @@
 </head>
 <body>
 
-    <!-- Traditional Kanji for Dragon in the background -->
-    <div class="kanji-watermark">龍</div>
+    <!-- Watermark Image in the background, opacity set via CSS to match original color -->
+    <img class="watermark-element" src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=https://steveseverdija.com&format=svg&color=ffffff" alt="Steve Severdija QR Code" width="250" height="250" />
 
     <main class="content-container">
         <h1>Privacy Policy</h1>
@@ -170,4 +168,3 @@
 
 </body>
 </html>
-
