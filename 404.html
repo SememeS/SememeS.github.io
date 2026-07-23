@@ -1,56 +1,90 @@
 <!DOCTYPE html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Not Found</title>
+    <!-- FontAwesome for the return icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #0c0c0c; /* Nearly black */
+            --watermark-color: rgba(255, 255, 255, 0.04); /* Very low opacity white */
+            --icon-color: #ffffff; /* Solid white */
+            --icon-hover: rgba(255, 255, 255, 0.7);
+        }
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="author" content="Steve Severdija" />
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden; /* Prevents scrollbars from appearing */
+            font-family: system-ui, -apple-system, sans-serif;
+        }
 
-<meta name="description" content="Game Development & Design, Drawing / 2D Art, Web" />
+        /* Center section holding the 404 */
+        .card-center {
+            flex-grow: 1;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-<title>(:)-|--<SS</title>
+        /* 404 Watermark Styling */
+        .watermark {
+            font-size: 45vmin; /* Dynamically scales with the screen size */
+            font-weight: bold;
+            color: var(--watermark-color);
+            user-select: none; /* Prevents accidental highlighting */
+            cursor: default;
+            letter-spacing: -2px; /* Pulls the numbers slightly closer together */
+        }
 
-<link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/normalize.min.css" />
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/css/foundation.min.css" />
-<link rel="stylesheet" href="css/style.css" />
-<link rel="stylesheet" href="css/glyphSS.css" />
+        /* Bottom Footer Area */
+        .card-footer {
+            width: 100%;
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10;
+        }
 
-<script src="//use.edgefonts.net/vt323.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/vendor/modernizr.min.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        /* Return Icon Link Styling */
+        .return-link a {
+            color: var(--icon-color);
+            font-size: 40px; /* Medium size */
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+            display: inline-block;
+        }
 
-  ga('create', 'UA-44521237-1', 'steveseverdija.com');
-  ga('send', 'pageview');
-
-</script>
+        .return-link a:hover {
+            color: var(--icon-hover);
+            transform: scale(1.1); /* Slight grow effect on hover */
+        }
+    </style>
 </head>
+<body>
 
-<body style="background-image: url('https://i.imgur.com/S9R8oJF.png'); background-size:auto;">
+    <main class="card-center">
+        <!-- Background 404 text -->
+        <div class="watermark">404</div>
+    </main>
 
-<div align="center">
-<h1 class="fourOfour">404</h1>
-<br>
-<h3>FüüüK</h3>
-</div>
-<br>
-<div align="center">
-<a href="index.html" class="button"><h4>☹</h4></a>
-</div>
+    <footer class="card-footer">
+        <!-- Return Link -->
+        <div class="return-link">
+            <a href="https://steveseverdija.com" aria-label="Return to Homepage">
+                <i class="fa-solid fa-arrow-rotate-left"></i>
+            </a>
+        </div>
+    </footer>
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/vendor/jquery.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.2.2/js/foundation.min.js"></script>
-<script>
-$(document).foundation();
-
-var doc = document.documentElement;
-doc.setAttribute('data-useragent', navigator.userAgent);
-</script>
 </body>
 </html>
