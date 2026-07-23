@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Card</title>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --bg-color: #0c0c0c; /* Nearly black */
+            --watermark-color: rgba(255, 255, 255, 0.04); /* Very low opacity white */
+            --line-color: rgba(255, 255, 255, 0.15); /* Thin, low opacity white line */
+            --icon-color: rgba(255, 255, 255, 0.6);
+            --icon-hover: #ffffff;
+            --copy-icon-color: rgba(255, 255, 255, 0.5); /* Medium white */
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden; /* Prevents scrollbars */
+            font-family: sans-serif;
+        }
+
+        /* Center section holding the B, hash, and copy icon */
+        .card-center {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px; /* Spacing between elements */
+            padding: 0 20px;
+        }
+
+        /* Bitcoin Symbol Styling */
+        .bitcoin-symbol {
+            font-size: 45vmin; /* Dynamically scales with the screen size */
+            color: var(--watermark-color);
+            user-select: none; /* Prevents accidental highlighting */
+            cursor: default;
+            line-height: 1;
+        }
+
+        /* Crypto Hash Text */
+        .crypto-hash {
+            color: var(--watermark-color);
+            font-size: clamp(12px, 3vmin, 18px); /* Responsive sizing */
+            font-family: monospace; /* Standard for crypto addresses */
+            user-select: all; /* Makes it easily selectable */
+            text-align: center;
+            word-break: break-all; /* Prevents overflow on small mobile screens */
+            max-width: 90vw;
+        }
+
+        /* Copy Button Styling */
+        .copy-icon {
+            color: var(--copy-icon-color);
+            font-size: 28px; /* Medium sized */
+            cursor: pointer;
+            transition: color 0.3s ease, transform 0.2s ease;
+            margin-top: 10px;
+        }
+
+        .copy-icon:hover {
+            color: #ffffff;
+            transform: scale(1.1);
+        }
+
+        .copy-icon:active {
+            transform: scale(0.95);
+        }
+
+        /* Bottom Footer Area */
+        .card-footer {
+            width: 100%;
+            padding-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10;
+        }
+
+        /* The Divider Line */
+        .divider {
+            width: 80%;
+            max-width: 500px;
+            height: 1px;
+            background-color: var(--line-color);
+            margin-bottom: 30px;
+        }
+
+        /* Social Icon Container */
+        .social-links {
+            display: flex;
+            gap: 50px;
+        }
+
+        /* Social Icon Styling */
+        .social-links a {
+            color: var(--icon-color);
+            font-size: 28px;
+            text-decoration: none;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: var(--icon-hover);
+            transform: translateY(-4px); /* Slight lift effect on hover */
+        }
+    </style>
+</head>
+<body>
+
+    <main class="card-center">
+        <!-- Bitcoin Symbol -->
+        <div class="bitcoin-symbol">₿</div>
+        
+        <!-- Selectable Hash -->
+        <div class="crypto-hash" id="wallet-address">bc1qdy6jxy64t6qcrmjaz7l5rfuvs02sklhkq20tr6</div>
+        
+        <!-- Copy Icon -->
+        <i class="fa-regular fa-copy copy-icon" id="copy-btn" onclick="copyHash()" aria-label="Copy to clipboard" title="Copy Address"></i>
+    </main>
+
+    <footer class="card-footer">
+        <div class="divider"></div>
+        <div class="social-links">
+            <a href="https://github.com/SememeS" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="mailto:steve.severdija@gmail.com" aria-label="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Script to make the copy button functional -->
+    <script>
+        function copyHash() {
+            const address = document.getElementById("wallet-address").innerText;
+            const copyBtn = document.getElementById("copy-btn");
+            
+            navigator.clipboard.writeText(address).then(() => {
+                // Change icon to a checkmark temporarily
+                copyBtn.className = "fa-solid fa-check copy-icon";
+                
+                // Revert back to copy icon after 2 seconds
+                setTimeout(() => {
+                    copyBtn.className = "fa-regular fa-copy copy-icon";
+                }, 2000);
+            }).catch(err => {
+                console.error("Failed to copy text: ", err);
+            });
+        }
+    </script>
+</body>
+</html>
